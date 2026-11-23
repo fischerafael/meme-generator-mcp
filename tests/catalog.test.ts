@@ -36,9 +36,9 @@ describe("search ranking", () => {
     expect(await top("everyone thinks it's fine while disaster happens", 5)).toContain("This Is Fine");
   });
 
-  it("has at least 80 templates, all tagged", async () => {
+  it("has at least 170 templates, all tagged", async () => {
     const all = await catalog.list();
-    expect(all.length).toBeGreaterThanOrEqual(80);
+    expect(all.length).toBeGreaterThanOrEqual(170);
     expect(all.every((t) => t.tags.length > 0)).toBe(true);
   });
 });

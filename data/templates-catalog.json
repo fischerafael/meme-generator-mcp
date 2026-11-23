@@ -569,31 +569,31 @@
     "boxes": [
       {
         "index": 1,
-        "role": "the person in the first panel"
+        "role": "top panel, person: who wants the thing"
       },
       {
         "index": 2,
-        "role": "the balloon: what they want"
+        "role": "top panel, balloon: what they want"
       },
       {
         "index": 3,
-        "role": "the person who grabs them: the obstacle"
+        "role": "bottom panel, the same person, held back"
       },
       {
         "index": 4,
-        "role": "the person again, held back"
+        "role": "bottom panel, the one holding them: the obstacle"
       },
       {
         "index": 5,
-        "role": "the balloon again, floating away"
+        "role": "bottom panel, the balloon floating away"
       }
     ],
     "usage": "Something pulls a person away from what they want. 5 boxes.",
     "example": [
       "Me",
       "Inbox zero",
-      "Slack notifications",
       "Me",
+      "Slack notifications",
       "Inbox zero"
     ],
     "previewUrl": "https://i.imgflip.com/261o3j.jpg",
@@ -648,22 +648,22 @@
     "boxes": [
       {
         "index": 1,
-        "role": "left arm: first group"
+        "role": "the handshake (top): what both sides agree on"
       },
       {
         "index": 2,
-        "role": "right arm: second group"
+        "role": "left arm: first group"
       },
       {
         "index": 3,
-        "role": "the handshake: what they agree on"
+        "role": "right arm: second group"
       }
     ],
     "usage": "Two different groups agreeing on one thing they share.",
     "example": [
-      "Frontend devs",
-      "Backend devs",
-      "Blaming the designer"
+      "Hating Mondays",
+      "Students",
+      "Teachers"
     ],
     "previewUrl": "https://i.imgflip.com/28j0te.jpg",
     "tags": [
@@ -1098,15 +1098,15 @@
     "boxes": [
       {
         "index": 1,
-        "role": "the stick being shoved"
+        "role": "top panel, the rider: who sabotages themselves"
       },
       {
         "index": 2,
-        "role": "the rider: who shoves it"
+        "role": "middle panel, the stick: the self-sabotaging action"
       },
       {
         "index": 3,
-        "role": "the fallen rider blaming something"
+        "role": "bottom panel, fallen rider: what they blame instead"
       }
     ],
     "usage": "Sabotaging yourself and blaming something else.",
@@ -1117,8 +1117,8 @@
       "bike"
     ],
     "example": [
-      "Procrastinating",
       "Me",
+      "Procrastinating all week",
       "Blaming the deadline"
     ],
     "previewUrl": "https://i.imgflip.com/1b42wl.jpg"
@@ -1877,19 +1877,19 @@
     "boxes": [
       {
         "index": 1,
-        "role": "left head: first personality"
+        "role": "top banner: what all three heads are part of"
       },
       {
         "index": 2,
-        "role": "middle head: second personality"
+        "role": "left head: first type"
       },
       {
         "index": 3,
-        "role": "right head: third / the derpy one"
+        "role": "middle head: second type"
       },
       {
         "index": 4,
-        "role": "the body: what they all are"
+        "role": "right head: the derpy one"
       }
     ],
     "usage": "Three different personalities of the same thing.",
@@ -1900,10 +1900,10 @@
       "dragon"
     ],
     "example": [
+      "The internet",
       "Serious news",
       "Opinion pieces",
-      "Comment section",
-      "The internet"
+      "Comment section"
     ],
     "previewUrl": "https://i.imgflip.com/33e92f.jpg"
   },
@@ -2432,5 +2432,2423 @@
       "Every employee"
     ],
     "previewUrl": "https://i.imgflip.com/1op9wy.jpg"
+  },
+  {
+    "id": "80996545",
+    "name": "Math lady/Confused lady",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the confusing situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: who is confused"
+      }
+    ],
+    "usage": "Being completely confused by something that should make sense.",
+    "tags": [
+      "confused",
+      "math",
+      "calculating",
+      "overwhelmed"
+    ],
+    "example": [
+      "When the recipe says 'season to taste'",
+      "Me"
+    ],
+    "previewUrl": "https://i.imgflip.com/1c81c1.jpg"
+  },
+  {
+    "id": "21735",
+    "name": "The Rock Driving",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top panel: the casual question"
+      },
+      {
+        "index": 2,
+        "role": "bottom panel: the shocking/absurd answer"
+      }
+    ],
+    "usage": "An innocent question met with a shocking answer.",
+    "tags": [
+      "shock",
+      "question",
+      "reaction",
+      "driving"
+    ],
+    "example": [
+      "What are you doing this weekend?",
+      "Reorganizing my spice rack"
+    ],
+    "previewUrl": "https://i.imgflip.com/grr.jpg"
+  },
+  {
+    "id": "61532",
+    "name": "The Most Interesting Man In The World",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'I don't always…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…but when I do, …'"
+      }
+    ],
+    "usage": "'I don't always X, but when I do, Y.'",
+    "tags": [
+      "i don't always",
+      "bold claim",
+      "dos equis",
+      "habit"
+    ],
+    "example": [
+      "I don't always go to the gym",
+      "but when I do, I take a selfie"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bh8.jpg"
+  },
+  {
+    "id": "8072285",
+    "name": "Doge",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'such X / much Y'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'wow'-style finish"
+      }
+    ],
+    "usage": "Broken-English excitement: 'such X, much Y, wow'.",
+    "tags": [
+      "doge",
+      "wow",
+      "such much",
+      "cute"
+    ],
+    "example": [
+      "such weekend, much sleep",
+      "wow"
+    ],
+    "previewUrl": "https://i.imgflip.com/4t0m5.jpg"
+  },
+  {
+    "id": "61585",
+    "name": "Bad Luck Brian",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the hopeful setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the unlucky outcome"
+      }
+    ],
+    "usage": "Something good happens, followed by terrible luck.",
+    "tags": [
+      "bad luck",
+      "misfortune",
+      "fail",
+      "unlucky"
+    ],
+    "example": [
+      "Wins a free cruise",
+      "It's the Titanic"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bip.jpg"
+  },
+  {
+    "id": "61539",
+    "name": "First World Problems",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the trivial problem"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the dramatic complaint"
+      }
+    ],
+    "usage": "Complaining about a trivial privileged problem.",
+    "tags": [
+      "first world problems",
+      "privilege",
+      "complaint",
+      "trivial"
+    ],
+    "example": [
+      "My phone is at 99%",
+      "and I have to leave in 5 minutes"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bhf.jpg"
+  },
+  {
+    "id": "61527",
+    "name": "Y U No",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: who you're addressing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Y U NO …?'"
+      }
+    ],
+    "usage": "Asking angrily why someone/something won't do a thing.",
+    "tags": [
+      "y u no",
+      "frustration",
+      "why",
+      "demand"
+    ],
+    "example": [
+      "Printer",
+      "Y U NO print?"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bh3.jpg"
+  },
+  {
+    "id": "61544",
+    "name": "Success Kid",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the small win"
+      }
+    ],
+    "usage": "Celebrating a small victory.",
+    "tags": [
+      "success",
+      "victory",
+      "win",
+      "proud"
+    ],
+    "example": [
+      "Forgot to study",
+      "Test got cancelled"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bhk.jpg"
+  },
+  {
+    "id": "563423",
+    "name": "That Would Be Great",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Yeah, if you could…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…that would be great'"
+      }
+    ],
+    "usage": "A boss-style passive-aggressive request.",
+    "tags": [
+      "passive aggressive",
+      "boss",
+      "request",
+      "office"
+    ],
+    "example": [
+      "Yeah, if you could come in on Saturday",
+      "that would be great"
+    ],
+    "previewUrl": "https://i.imgflip.com/c2qn.jpg"
+  },
+  {
+    "id": "61546",
+    "name": "Brace Yourselves X is Coming",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Brace yourselves'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'X is coming'"
+      }
+    ],
+    "usage": "Warning that something predictable is about to arrive.",
+    "tags": [
+      "brace yourselves",
+      "incoming",
+      "warning",
+      "winter is coming"
+    ],
+    "example": [
+      "Brace yourselves",
+      "Christmas songs are coming"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bhm.jpg"
+  },
+  {
+    "id": "405658",
+    "name": "Grumpy Cat",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the grumpy reply"
+      }
+    ],
+    "usage": "A grumpy, negative reaction.",
+    "tags": [
+      "grumpy",
+      "negative",
+      "no",
+      "cat"
+    ],
+    "example": [
+      "You want me to smile?",
+      "No"
+    ],
+    "previewUrl": "https://i.imgflip.com/8p0a.jpg"
+  },
+  {
+    "id": "196652226",
+    "name": "Spongebob Ight Imma Head Out",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Ight imma head out'"
+      }
+    ],
+    "usage": "Quietly leaving a situation that's getting bad.",
+    "tags": [
+      "leaving",
+      "escape",
+      "nope",
+      "spongebob"
+    ],
+    "example": [
+      "When the group chat starts planning a hike at 6am",
+      "Ight imma head out"
+    ],
+    "previewUrl": "https://i.imgflip.com/392xtu.jpg"
+  },
+  {
+    "id": "16464531",
+    "name": "But That's None Of My Business",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the shady observation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'But that's none of my business'"
+      }
+    ],
+    "usage": "Making a shady observation, then pretending not to care.",
+    "tags": [
+      "shade",
+      "passive aggressive",
+      "gossip",
+      "kermit"
+    ],
+    "example": [
+      "You said you'd start the diet three Mondays ago",
+      "but that's none of my business"
+    ],
+    "previewUrl": "https://i.imgflip.com/9sw43.jpg"
+  },
+  {
+    "id": "61582",
+    "name": "Creepy Condescending Wonka",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Oh, you X?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Tell me more about…'"
+      }
+    ],
+    "usage": "Sarcastically 'interested' in someone's bragging.",
+    "tags": [
+      "sarcasm",
+      "condescending",
+      "bragging",
+      "wonka"
+    ],
+    "example": [
+      "Oh, you ran a marathon?",
+      "Please, tell me more"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bim.jpg"
+  },
+  {
+    "id": "61533",
+    "name": "X All The Y",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'X all the…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…Y!'"
+      }
+    ],
+    "usage": "Enthusiastically doing something to everything.",
+    "tags": [
+      "all the things",
+      "enthusiasm",
+      "excess",
+      "motivation"
+    ],
+    "example": [
+      "Clean all the",
+      "things!"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bh9.jpg"
+  },
+  {
+    "id": "101511",
+    "name": "Don't You Squidward",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the smug punchline"
+      }
+    ],
+    "usage": "Smug, sneaky satisfaction.",
+    "tags": [
+      "smug",
+      "sneaky",
+      "grin",
+      "spongebob"
+    ],
+    "example": [
+      "When you take the last slice",
+      "before anyone notices"
+    ],
+    "previewUrl": "https://i.imgflip.com/26br.jpg"
+  },
+  {
+    "id": "1509839",
+    "name": "Captain Picard Facepalm",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the dumb thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the facepalm reaction"
+      }
+    ],
+    "usage": "Facepalming at something dumb.",
+    "tags": [
+      "facepalm",
+      "disappointment",
+      "dumb",
+      "picard"
+    ],
+    "example": [
+      "Replies all to the whole company",
+      "to say 'thanks'"
+    ],
+    "previewUrl": "https://i.imgflip.com/wczz.jpg"
+  },
+  {
+    "id": "61516",
+    "name": "Philosoraptor",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the premise"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the 'deep' question"
+      }
+    ],
+    "usage": "Asking a pseudo-deep philosophical question.",
+    "tags": [
+      "philosophy",
+      "deep question",
+      "shower thought",
+      "wondering"
+    ],
+    "example": [
+      "If you clean a vacuum cleaner",
+      "are you the vacuum cleaner?"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bgs.jpg"
+  },
+  {
+    "id": "100947",
+    "name": "Matrix Morpheus",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'What if I told you'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the mind-blowing (obvious) truth"
+      }
+    ],
+    "usage": "'What if I told you…' revealing an obvious truth.",
+    "tags": [
+      "what if i told you",
+      "revelation",
+      "truth",
+      "morpheus"
+    ],
+    "example": [
+      "What if I told you",
+      "you can leave the party before midnight"
+    ],
+    "previewUrl": "https://i.imgflip.com/25w3.jpg"
+  },
+  {
+    "id": "235589",
+    "name": "Evil Toddler",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the evil plan"
+      }
+    ],
+    "usage": "A tiny villain with an evil plan.",
+    "tags": [
+      "evil plan",
+      "villain",
+      "mischief",
+      "toddler"
+    ],
+    "example": [
+      "Parents finally asleep",
+      "Time to scream"
+    ],
+    "previewUrl": "https://i.imgflip.com/51s5.jpg"
+  },
+  {
+    "id": "101910402",
+    "name": "Who Would Win?",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the first contender"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the second contender"
+      }
+    ],
+    "usage": "Comparing two contenders in an absurd matchup.",
+    "tags": [
+      "who would win",
+      "versus",
+      "matchup",
+      "comparison"
+    ],
+    "example": [
+      "A full-grown adult",
+      "One tiny spider"
+    ],
+    "previewUrl": "https://i.imgflip.com/1ooaki.jpg"
+  },
+  {
+    "id": "922147",
+    "name": "Laughing Men In Suits",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the joke being told"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the laughing reaction / punchline"
+      }
+    ],
+    "usage": "Laughing at a joke that's actually a sad truth.",
+    "tags": [
+      "laughing",
+      "joke",
+      "irony",
+      "suits"
+    ],
+    "example": [
+      "And then I said 'I'll go to bed early tonight'",
+      "Hahaha"
+    ],
+    "previewUrl": "https://i.imgflip.com/jrj7.jpg"
+  },
+  {
+    "id": "61580",
+    "name": "Too Damn High",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'The X is'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'too damn high!'"
+      }
+    ],
+    "usage": "Something costs or is way too much.",
+    "tags": [
+      "too high",
+      "price",
+      "complaint",
+      "rent"
+    ],
+    "example": [
+      "The price of concert tickets is",
+      "too damn high!"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bik.jpg"
+  },
+  {
+    "id": "245898",
+    "name": "Picard Wtf",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the exasperated question"
+      }
+    ],
+    "usage": "Annoyed disbelief: 'why the hell…?'",
+    "tags": [
+      "annoyed",
+      "why",
+      "disbelief",
+      "picard"
+    ],
+    "example": [
+      "Why the hell",
+      "does the printer need cyan to print black?"
+    ],
+    "previewUrl": "https://i.imgflip.com/59qi.jpg"
+  },
+  {
+    "id": "40945639",
+    "name": "Dr Evil Laser",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the air-quoted 'big' thing"
+      }
+    ],
+    "usage": "Using air quotes for something laughably small.",
+    "tags": [
+      "air quotes",
+      "sarcasm",
+      "dr evil",
+      "villain"
+    ],
+    "example": [
+      "We'll give you a 'competitive'",
+      "salary"
+    ],
+    "previewUrl": "https://i.imgflip.com/odluv.jpg"
+  },
+  {
+    "id": "109765",
+    "name": "I'll Just Wait Here",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what you're waiting for"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'I'll just wait here'"
+      }
+    ],
+    "usage": "Waiting a ridiculously long time.",
+    "tags": [
+      "waiting",
+      "forever",
+      "skeleton",
+      "delay"
+    ],
+    "example": [
+      "Waiting for my food order",
+      "I'll just wait here"
+    ],
+    "previewUrl": "https://i.imgflip.com/2cp1.jpg"
+  },
+  {
+    "id": "119215120",
+    "name": "Types of Headaches meme",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: title ('Types of X')"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the worst/most extreme kind"
+      }
+    ],
+    "usage": "Ranking the worst kind of something.",
+    "tags": [
+      "types of",
+      "ranking",
+      "worst",
+      "pain"
+    ],
+    "example": [
+      "Types of headaches",
+      "Hearing your alarm on Monday"
+    ],
+    "previewUrl": "https://i.imgflip.com/1yz6z4.jpg"
+  },
+  {
+    "id": "259680",
+    "name": "Am I The Only One Around Here",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Am I the only one around here'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…who cares about X?'"
+      }
+    ],
+    "usage": "Feeling alone in caring about something.",
+    "tags": [
+      "frustration",
+      "alone",
+      "rant",
+      "lebowski"
+    ],
+    "example": [
+      "Am I the only one around here",
+      "who reads the instructions?"
+    ],
+    "previewUrl": "https://i.imgflip.com/5kdc.jpg"
+  },
+  {
+    "id": "61581",
+    "name": "Put It Somewhere Else Patrick",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the problem"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the 'solution'"
+      }
+    ],
+    "usage": "A 'brilliant' solution that just moves the problem.",
+    "tags": [
+      "bad solution",
+      "move it",
+      "patrick",
+      "logic"
+    ],
+    "example": [
+      "We should take the problem",
+      "and push it somewhere else!"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bil.jpg"
+  },
+  {
+    "id": "9440985",
+    "name": "Face You Make Robert Downey Jr",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'The face you make when…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the situation"
+      }
+    ],
+    "usage": "The face you make in a specific situation.",
+    "tags": [
+      "face you make",
+      "reaction",
+      "smug",
+      "rdj"
+    ],
+    "example": [
+      "The face you make when",
+      "someone says 'we need to talk'"
+    ],
+    "previewUrl": "https://i.imgflip.com/5mcpl.jpg"
+  },
+  {
+    "id": "56225174",
+    "name": "Be Like Bill",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what Bill does (the good behavior)"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Bill is smart. Be like Bill.'"
+      }
+    ],
+    "usage": "Praising sensible behavior: 'Be like Bill'.",
+    "tags": [
+      "be like bill",
+      "good behavior",
+      "advice",
+      "stick figure"
+    ],
+    "example": [
+      "Bill doesn't text during movies",
+      "Be like Bill"
+    ],
+    "previewUrl": "https://i.imgflip.com/xh3me.jpg"
+  },
+  {
+    "id": "12403754",
+    "name": "Bad Pun Dog",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the pun setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the pun punchline"
+      }
+    ],
+    "usage": "Telling a bad pun.",
+    "tags": [
+      "pun",
+      "bad joke",
+      "dad joke",
+      "dog"
+    ],
+    "example": [
+      "Why don't skeletons fight?",
+      "They don't have the guts"
+    ],
+    "previewUrl": "https://i.imgflip.com/7dusq.jpg"
+  },
+  {
+    "id": "21604248",
+    "name": "Mugatu So Hot Right Now",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the trendy thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'so hot right now'"
+      }
+    ],
+    "usage": "Something that's suddenly trendy.",
+    "tags": [
+      "trend",
+      "hot",
+      "popular",
+      "zoolander"
+    ],
+    "example": [
+      "Sourdough bread",
+      "so hot right now"
+    ],
+    "previewUrl": "https://i.imgflip.com/cv1y0.jpg"
+  },
+  {
+    "id": "1367068",
+    "name": "I Should Buy A Boat Cat",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the fancy conclusion"
+      }
+    ],
+    "usage": "A 'sophisticated' idea that's actually silly.",
+    "tags": [
+      "sophisticated",
+      "fancy",
+      "impulse",
+      "cat"
+    ],
+    "example": [
+      "Bad day at work",
+      "I should buy a boat"
+    ],
+    "previewUrl": "https://i.imgflip.com/tau4.jpg"
+  },
+  {
+    "id": "460541",
+    "name": "Jack Sparrow Being Chased",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: who is being chased"
+      },
+      {
+        "index": 2,
+        "role": "bottom: who is chasing"
+      }
+    ],
+    "usage": "Being chased by a crowd of something.",
+    "tags": [
+      "chased",
+      "running",
+      "escape",
+      "crowd"
+    ],
+    "example": [
+      "Me leaving work at 5pm",
+      "Everyone with 'one quick question'"
+    ],
+    "previewUrl": "https://i.imgflip.com/9vct.jpg"
+  },
+  {
+    "id": "195389",
+    "name": "Sparta Leonidas",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'This is madness!' (the objection)"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'This. Is. X!'"
+      }
+    ],
+    "usage": "Confidently doubling down: 'This is X!'",
+    "tags": [
+      "intensity",
+      "shout",
+      "300",
+      "double down"
+    ],
+    "example": [
+      "This is madness!",
+      "This is Monday!"
+    ],
+    "previewUrl": "https://i.imgflip.com/46rh.jpg"
+  },
+  {
+    "id": "6531067",
+    "name": "See Nobody Cares",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'See? Nobody cares.'"
+      }
+    ],
+    "usage": "Pointing out that nobody cares.",
+    "tags": [
+      "nobody cares",
+      "indifference",
+      "dismiss",
+      "jurassic park"
+    ],
+    "example": [
+      "When you announce you're on a diet",
+      "See? Nobody cares"
+    ],
+    "previewUrl": "https://i.imgflip.com/3vzej.jpg"
+  },
+  {
+    "id": "766986",
+    "name": "Aaaaand Its Gone",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what you had"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Aaaand it's gone'"
+      }
+    ],
+    "usage": "Something you had disappears instantly.",
+    "tags": [
+      "gone",
+      "lost",
+      "money",
+      "vanish"
+    ],
+    "example": [
+      "My paycheck",
+      "Aaaand it's gone"
+    ],
+    "previewUrl": "https://i.imgflip.com/gft6.jpg"
+  },
+  {
+    "id": "444501",
+    "name": "Maury Lie Detector",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the claim"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'The lie detector determined that was a lie'"
+      }
+    ],
+    "usage": "Calling out an obvious lie.",
+    "tags": [
+      "lie",
+      "calling out",
+      "busted",
+      "maury"
+    ],
+    "example": [
+      "I'll just watch one episode",
+      "The lie detector determined that was a lie"
+    ],
+    "previewUrl": "https://i.imgflip.com/9iz9.jpg"
+  },
+  {
+    "id": "89655",
+    "name": "Uncle Sam",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'I want you'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…to do X'"
+      }
+    ],
+    "usage": "'I want YOU to…' recruitment demand.",
+    "tags": [
+      "demand",
+      "i want you",
+      "recruit",
+      "poster"
+    ],
+    "example": [
+      "I want you",
+      "to stop replying-all"
+    ],
+    "previewUrl": "https://i.imgflip.com/1x6f.jpg"
+  },
+  {
+    "id": "100955",
+    "name": "Confession Bear",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the confession"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the continuation / twist"
+      }
+    ],
+    "usage": "Confessing an embarrassing secret.",
+    "tags": [
+      "confession",
+      "secret",
+      "embarrassing",
+      "bear"
+    ],
+    "example": [
+      "I pretend to know the songs at parties",
+      "I just mouth 'watermelon'"
+    ],
+    "previewUrl": "https://i.imgflip.com/25wb.jpg"
+  },
+  {
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the sign: '0 days without X'"
+      },
+      {
+        "index": 2,
+        "role": "optional caption"
+      }
+    ],
+    "usage": "Resetting the 'days without incident' counter.",
+    "tags": [
+      "days without",
+      "incident",
+      "fail again",
+      "simpsons"
+    ],
+    "example": [
+      "0 days without losing my keys",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/72epa9.png"
+  },
+  {
+    "id": "176908",
+    "name": "Shut Up And Take My Money Fry",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the product"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Shut up and take my money!'"
+      }
+    ],
+    "usage": "Desperately wanting to buy something.",
+    "tags": [
+      "want",
+      "buy",
+      "excited",
+      "fry"
+    ],
+    "example": [
+      "A blanket with sleeves and pockets",
+      "Shut up and take my money!"
+    ],
+    "previewUrl": "https://i.imgflip.com/3si4.jpg"
+  },
+  {
+    "id": "718432",
+    "name": "Back In My Day",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Back in my day…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the old-timer complaint"
+      }
+    ],
+    "usage": "An old person complaining about how things used to be.",
+    "tags": [
+      "old man",
+      "nostalgia",
+      "complaint",
+      "back in my day"
+    ],
+    "example": [
+      "Back in my day",
+      "we had to rewind the tape"
+    ],
+    "previewUrl": "https://i.imgflip.com/fecg.jpg"
+  },
+  {
+    "id": "234202281",
+    "name": "AJ Styles & Undertaker",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the overconfident one"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the bigger threat that shows up"
+      }
+    ],
+    "usage": "An overconfident one meets the bigger threat.",
+    "tags": [
+      "threat",
+      "overconfident",
+      "wrestling",
+      "surprise"
+    ],
+    "example": [
+      "Me thinking the week will be calm",
+      "Monday's inbox"
+    ],
+    "previewUrl": "https://i.imgflip.com/3vfrmx.jpg"
+  },
+  {
+    "id": "124212",
+    "name": "Say That Again I Dare You",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what they said"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Say it again. I dare you.'"
+      }
+    ],
+    "usage": "Daring someone to repeat something.",
+    "tags": [
+      "dare",
+      "threat",
+      "challenge",
+      "pulp fiction"
+    ],
+    "example": [
+      "Pineapple on pizza is gross",
+      "Say it again. I dare you."
+    ],
+    "previewUrl": "https://i.imgflip.com/2nuc.jpg"
+  },
+  {
+    "id": "371382",
+    "name": "Simba Shadowy Place",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'What about that shadowy place?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'That's X. You must never go there.'"
+      }
+    ],
+    "usage": "The forbidden place you must never go.",
+    "tags": [
+      "forbidden",
+      "never go there",
+      "lion king",
+      "warning"
+    ],
+    "example": [
+      "What about that shadowy place?",
+      "That's the back of the fridge. Never go there."
+    ],
+    "previewUrl": "https://i.imgflip.com/7yk6.jpg"
+  },
+  {
+    "id": "4173692",
+    "name": "Scared Cat",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the scary thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the scared reaction"
+      }
+    ],
+    "usage": "Being startled or frightened.",
+    "tags": [
+      "scared",
+      "startled",
+      "fear",
+      "cat"
+    ],
+    "example": [
+      "When you hear your name in a meeting",
+      "you weren't listening to"
+    ],
+    "previewUrl": "https://i.imgflip.com/2hgfw.jpg"
+  },
+  {
+    "id": "27920",
+    "name": "Surprised Koala",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the shocked reaction"
+      }
+    ],
+    "usage": "Shocked disbelief.",
+    "tags": [
+      "surprised",
+      "shock",
+      "disbelief",
+      "koala"
+    ],
+    "example": [
+      "When the 'quick call' lasts two hours",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/ljk.jpg"
+  },
+  {
+    "id": "1232104",
+    "name": "Pepperidge Farm Remembers",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the old memory"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Pepperidge Farm remembers'"
+      }
+    ],
+    "usage": "Remembering something old that nobody else does.",
+    "tags": [
+      "nostalgia",
+      "remember",
+      "old times",
+      "throwback"
+    ],
+    "example": [
+      "Remember when phones had buttons?",
+      "Pepperidge Farm remembers"
+    ],
+    "previewUrl": "https://i.imgflip.com/qep4.jpg"
+  },
+  {
+    "id": "61583",
+    "name": "Conspiracy Keanu",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'What if…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the mind-blowing twist"
+      }
+    ],
+    "usage": "A mind-blowing 'what if' realization.",
+    "tags": [
+      "what if",
+      "conspiracy",
+      "mind blown",
+      "keanu"
+    ],
+    "example": [
+      "What if the dog thinks",
+      "I'm the one being walked?"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bin.jpg"
+  },
+  {
+    "id": "13757816",
+    "name": "Awkward Moment Sealion",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the awkward realization"
+      }
+    ],
+    "usage": "Realizing a situation just got awkward.",
+    "tags": [
+      "awkward",
+      "cringe",
+      "realization",
+      "seal"
+    ],
+    "example": [
+      "When you wave back at someone",
+      "who was waving at the person behind you"
+    ],
+    "previewUrl": "https://i.imgflip.com/86vlk.jpg"
+  },
+  {
+    "id": "47235368",
+    "name": "Good Fellas Hilarious",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the thing that isn't that funny"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the over-the-top reaction"
+      }
+    ],
+    "usage": "Laughing way too hard at something.",
+    "tags": [
+      "laughing",
+      "fake laugh",
+      "hilarious",
+      "goodfellas"
+    ],
+    "example": [
+      "When the boss makes a joke",
+      "Hilarious"
+    ],
+    "previewUrl": "https://i.imgflip.com/s4f1k.jpg"
+  },
+  {
+    "id": "17699",
+    "name": "Buddy Christ",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the thumbs-up approval"
+      }
+    ],
+    "usage": "Enthusiastic, cheesy approval.",
+    "tags": [
+      "approval",
+      "thumbs up",
+      "cheesy",
+      "positive"
+    ],
+    "example": [
+      "Ate a salad",
+      "so I deserve the cake"
+    ],
+    "previewUrl": "https://i.imgflip.com/dnn.jpg"
+  },
+  {
+    "id": "1790995",
+    "name": "And everybody loses their minds",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Nobody bats an eye when X'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'but when Y, everyone loses their minds'"
+      }
+    ],
+    "usage": "People ignore one thing but freak out over a similar one.",
+    "tags": [
+      "double standard",
+      "outrage",
+      "joker",
+      "hypocrisy"
+    ],
+    "example": [
+      "Nobody bats an eye when it rains all week",
+      "But one sunny Monday and everyone loses their minds"
+    ],
+    "previewUrl": "https://i.imgflip.com/12dxv.jpg"
+  },
+  {
+    "id": "285870",
+    "name": "Squidward",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: expectation (handsome Squidward)"
+      },
+      {
+        "index": 2,
+        "role": "bottom: reality (normal Squidward)"
+      }
+    ],
+    "usage": "Expectation vs. reality.",
+    "tags": [
+      "expectation vs reality",
+      "before after",
+      "squidward",
+      "comparison"
+    ],
+    "example": [
+      "How I think I look at the gym",
+      "How I actually look"
+    ],
+    "previewUrl": "https://i.imgflip.com/64ku.jpg"
+  },
+  {
+    "id": "28034788",
+    "name": "Marvel Civil War 1",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: one side"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the other side"
+      }
+    ],
+    "usage": "Picking sides in a two-way debate.",
+    "tags": [
+      "sides",
+      "debate",
+      "versus",
+      "civil war"
+    ],
+    "example": [
+      "Team cats",
+      "Team dogs"
+    ],
+    "previewUrl": "https://i.imgflip.com/govs4.jpg"
+  },
+  {
+    "id": "24557067",
+    "name": "Afraid To Ask Andy",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'I don't know what X is'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…and at this point I'm too afraid to ask'"
+      }
+    ],
+    "usage": "Being too embarrassed to admit you don't know something.",
+    "tags": [
+      "afraid to ask",
+      "ignorance",
+      "embarrassed",
+      "andy"
+    ],
+    "example": [
+      "I still don't know what NFTs are",
+      "and at this point I'm too afraid to ask"
+    ],
+    "previewUrl": "https://i.imgflip.com/emccr.jpg"
+  },
+  {
+    "id": "442575",
+    "name": "Ain't Nobody Got Time For That",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the tedious thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Ain't nobody got time for that'"
+      }
+    ],
+    "usage": "Refusing something tedious.",
+    "tags": [
+      "no time",
+      "refuse",
+      "lazy",
+      "busy"
+    ],
+    "example": [
+      "Reading the terms and conditions",
+      "Ain't nobody got time for that"
+    ],
+    "previewUrl": "https://i.imgflip.com/9hhr.jpg"
+  },
+  {
+    "id": "20007896",
+    "name": "c'mon do something",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what you're poking"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'C'mon, do something'"
+      }
+    ],
+    "usage": "Poking something and waiting for a reaction.",
+    "tags": [
+      "poke",
+      "impatient",
+      "waiting",
+      "stick"
+    ],
+    "example": [
+      "Me refreshing my bank account",
+      "C'mon, do something"
+    ],
+    "previewUrl": "https://i.imgflip.com/bwu6w.jpg"
+  },
+  {
+    "id": "189601074",
+    "name": "Brain Before Sleep",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top-left, brain: 'Are you sleeping?'"
+      },
+      {
+        "index": 2,
+        "role": "middle-left, you: 'Yes, now shut up'"
+      },
+      {
+        "index": 3,
+        "role": "top-right, brain: the random intrusive thought"
+      }
+    ],
+    "usage": "Your brain keeps you awake with random thoughts.",
+    "tags": [
+      "insomnia",
+      "brain",
+      "overthinking",
+      "sleep"
+    ],
+    "example": [
+      "Are you sleeping?",
+      "Yes, now shut up",
+      "Remember that thing you said in 2009?"
+    ],
+    "previewUrl": "https://i.imgflip.com/34vt4i.jpg"
+  },
+  {
+    "id": "286646496",
+    "name": "Both Buttons Pressed",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left button: first option"
+      },
+      {
+        "index": 2,
+        "role": "right button: second option"
+      },
+      {
+        "index": 3,
+        "role": "bottom: who presses both"
+      }
+    ],
+    "usage": "Refusing to choose and taking both options.",
+    "tags": [
+      "both",
+      "no choice",
+      "greedy",
+      "two buttons"
+    ],
+    "example": [
+      "Pizza",
+      "Burger",
+      "Me on a cheat day"
+    ],
+    "previewUrl": "https://i.imgflip.com/4qntuo.jpg"
+  },
+  {
+    "id": "142921050",
+    "name": "Car Salesman Slaps Roof Of Car",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: '*slaps roof* This bad boy can fit…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the absurd amount it holds"
+      }
+    ],
+    "usage": "A salesman pitching something by how much it can hold.",
+    "tags": [
+      "sales pitch",
+      "capacity",
+      "salesman",
+      "bragging"
+    ],
+    "example": [
+      "*slaps roof of brain* This bad boy can fit",
+      "so many useless song lyrics"
+    ],
+    "previewUrl": "https://i.imgflip.com/2d3al6.jpg"
+  },
+  {
+    "id": "184801100",
+    "name": "Me And The Boys",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Me and the boys'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: what they're doing"
+      }
+    ],
+    "usage": "You and your friends doing something together.",
+    "tags": [
+      "friends",
+      "group",
+      "squad",
+      "hangout"
+    ],
+    "example": [
+      "Me and the boys",
+      "heading to the snack aisle"
+    ],
+    "previewUrl": "https://i.imgflip.com/320xfw.jpg"
+  },
+  {
+    "id": "184152522",
+    "name": "Oh yeah! Oh no...",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the exciting part ('Oh yeah!')"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the bad realization ('Oh no…')"
+      }
+    ],
+    "usage": "Excitement that suddenly turns into dread.",
+    "tags": [
+      "happy sad",
+      "realization",
+      "mood swing",
+      "oh no"
+    ],
+    "example": [
+      "It's Friday!",
+      "I promised to help someone move"
+    ],
+    "previewUrl": "https://i.imgflip.com/31n0zu.png"
+  },
+  {
+    "id": "505705955",
+    "name": "Absolute Cinema",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the thing being praised"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Absolute cinema'"
+      }
+    ],
+    "usage": "Praising something as a masterpiece.",
+    "tags": [
+      "masterpiece",
+      "praise",
+      "cinema",
+      "perfect"
+    ],
+    "example": [
+      "The microwave stopping at 0:01",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/8d317n.png"
+  },
+  {
+    "id": "101711",
+    "name": "Skeptical Baby",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the claim"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the skeptical thought"
+      }
+    ],
+    "usage": "Skeptical side-eye at a dubious claim.",
+    "tags": [
+      "skeptical",
+      "doubt",
+      "side eye",
+      "baby"
+    ],
+    "example": [
+      "'Only five minutes left'",
+      "said the GPS for 20 minutes"
+    ],
+    "previewUrl": "https://i.imgflip.com/26hb.jpg"
+  },
+  {
+    "id": "232844223",
+    "name": "Soyboy Vs Yes Chad",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left (soyboy): the long, worried objection"
+      },
+      {
+        "index": 2,
+        "role": "right (chad): the confident 'Yes.'"
+      }
+    ],
+    "usage": "Overthinking vs. a simple confident 'Yes'.",
+    "tags": [
+      "overthinking",
+      "confident",
+      "chad",
+      "debate"
+    ],
+    "example": [
+      "But what if the pizza has pineapple?",
+      "Yes."
+    ],
+    "previewUrl": "https://i.imgflip.com/3umnr3.jpg"
+  },
+  {
+    "id": "72525473",
+    "name": "say the line bart! simpsons",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top, the crowd: 'Say the line!'"
+      },
+      {
+        "index": 2,
+        "role": "middle, the reluctant one: the catchphrase"
+      },
+      {
+        "index": 3,
+        "role": "bottom: the crowd's cheering reaction"
+      }
+    ],
+    "usage": "Everyone begging someone to say their catchphrase.",
+    "tags": [
+      "catchphrase",
+      "crowd",
+      "simpsons",
+      "say the line"
+    ],
+    "example": [
+      "Say the line, Dad!",
+      "*sigh* I'm not paying to heat the outdoors",
+      "YAAAY"
+    ],
+    "previewUrl": "https://i.imgflip.com/176h0h.jpg"
+  },
+  {
+    "id": "71428573",
+    "name": "Say it Again, Dexter",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what was said"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Say it again…'"
+      }
+    ],
+    "usage": "Someone swooning over something said in an accent.",
+    "tags": [
+      "accent",
+      "swoon",
+      "say it again",
+      "dexter"
+    ],
+    "example": [
+      "Croissant",
+      "Say it again, Dexter"
+    ],
+    "previewUrl": "https://i.imgflip.com/16iyn1.jpg"
+  },
+  {
+    "id": "89853322",
+    "name": "obama medal",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left: who gives the medal"
+      },
+      {
+        "index": 2,
+        "role": "right: who receives it (often the same)"
+      }
+    ],
+    "usage": "Congratulating yourself.",
+    "tags": [
+      "self congratulation",
+      "award",
+      "proud",
+      "medal"
+    ],
+    "example": [
+      "Me",
+      "Me for doing the dishes"
+    ],
+    "previewUrl": "https://i.imgflip.com/1hhv9m.jpg"
+  },
+  {
+    "id": "54401824",
+    "name": "And Just Like That",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'and just like that…'"
+      }
+    ],
+    "usage": "Something changes instantly and completely.",
+    "tags": [
+      "sudden change",
+      "just like that",
+      "forrest gump",
+      "quit"
+    ],
+    "example": [
+      "I'll start running every morning",
+      "And just like that, I stopped"
+    ],
+    "previewUrl": "https://i.imgflip.com/we0ps.jpg"
+  },
+  {
+    "id": "10628640",
+    "name": "Archer",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Do you want X?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Because that's how you get X'"
+      }
+    ],
+    "usage": "Warning about the predictable consequence of something.",
+    "tags": [
+      "consequence",
+      "warning",
+      "archer",
+      "cause"
+    ],
+    "example": [
+      "Do you want ants?",
+      "Because that's how you get ants"
+    ],
+    "previewUrl": "https://i.imgflip.com/6bt40.jpg"
+  },
+  {
+    "id": "23909796",
+    "name": "Satisfied Seal",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the satisfying outcome"
+      }
+    ],
+    "usage": "Deep satisfaction with something.",
+    "tags": [
+      "satisfied",
+      "satisfaction",
+      "approval",
+      "seal"
+    ],
+    "example": [
+      "When the cable fits",
+      "on the first try"
+    ],
+    "previewUrl": "https://i.imgflip.com/e8gx0.jpg"
+  },
+  {
+    "id": "61522",
+    "name": "Scumbag Steve",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the jerk move"
+      }
+    ],
+    "usage": "Someone acting like a jerk.",
+    "tags": [
+      "jerk",
+      "rude",
+      "bad friend",
+      "scumbag"
+    ],
+    "example": [
+      "Borrows your charger",
+      "Takes it home"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bgy.jpg"
+  },
+  {
+    "id": "1202623",
+    "name": "Keep Calm And Carry On Red",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Keep calm'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'and X'"
+      }
+    ],
+    "usage": "Parody of the 'Keep calm and carry on' poster.",
+    "tags": [
+      "keep calm",
+      "poster",
+      "advice",
+      "parody"
+    ],
+    "example": [
+      "Keep calm",
+      "and eat cake"
+    ],
+    "previewUrl": "https://i.imgflip.com/pry7.jpg"
+  },
+  {
+    "id": "19194965",
+    "name": "Star Wars No",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the terrible news"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'NOOOO!'"
+      }
+    ],
+    "usage": "Reacting with a dramatic 'NOOO!'",
+    "tags": [
+      "no",
+      "despair",
+      "darth vader",
+      "dramatic"
+    ],
+    "example": [
+      "The Wi-Fi is down",
+      "NOOOOO!"
+    ],
+    "previewUrl": "https://i.imgflip.com/bfexh.jpg"
+  },
+  {
+    "id": "197671929",
+    "name": "Kombucha Girl",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what you're trying"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the uncertain verdict"
+      }
+    ],
+    "usage": "Trying something and being unsure whether you like it.",
+    "tags": [
+      "unsure",
+      "trying",
+      "taste",
+      "reaction"
+    ],
+    "example": [
+      "Trying the new office coffee",
+      "...actually not bad?"
+    ],
+    "previewUrl": "https://i.imgflip.com/39osmx.png"
+  },
+  {
+    "id": "360597639",
+    "name": "whe i'm in a competition and my opponent is",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'When I'm in a competition and my opponent is…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the weak opponent"
+      }
+    ],
+    "usage": "Facing an embarrassingly weak opponent.",
+    "tags": [
+      "competition",
+      "opponent",
+      "weak",
+      "squidward"
+    ],
+    "example": [
+      "When I'm in a competition and my opponent is",
+      "someone who reads the manual"
+    ],
+    "previewUrl": "https://i.imgflip.com/5youx3.jpg"
+  },
+  {
+    "id": "193286698",
+    "name": "Empty Stonks",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the dumb financial move"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Stonks'"
+      }
+    ],
+    "usage": "A dumb money move framed as genius.",
+    "tags": [
+      "stonks",
+      "money",
+      "finance",
+      "investment"
+    ],
+    "example": [
+      "Buying 10 coffees to get the 11th free",
+      "Stonks"
+    ],
+    "previewUrl": "https://i.imgflip.com/372syy.png"
+  },
+  {
+    "id": "412211",
+    "name": "Jackie Chan WTF",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the confused reaction"
+      }
+    ],
+    "usage": "Utter confusion at something nonsensical.",
+    "tags": [
+      "confused",
+      "wtf",
+      "jackie chan",
+      "disbelief"
+    ],
+    "example": [
+      "When the instructions say 'some assembly required'",
+      "for a 400-piece shelf"
+    ],
+    "previewUrl": "https://i.imgflip.com/8u2b.jpg"
+  },
+  {
+    "id": "19209570",
+    "name": "What Do We Want",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'What do we want? X!'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'When do we want it? Y!'"
+      }
+    ],
+    "usage": "A protest chant: what we want and when.",
+    "tags": [
+      "protest",
+      "chant",
+      "demand",
+      "crowd"
+    ],
+    "example": [
+      "What do we want? Sleep!",
+      "When do we want it? Now!"
+    ],
+    "previewUrl": "https://i.imgflip.com/bfq76.jpg"
+  },
+  {
+    "id": "673439",
+    "name": "Confused Gandalf",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the confused reaction"
+      }
+    ],
+    "usage": "Being confused and unable to remember.",
+    "tags": [
+      "confused",
+      "forgot",
+      "gandalf",
+      "memory"
+    ],
+    "example": [
+      "When you walk into a room",
+      "and forget why"
+    ],
+    "previewUrl": "https://i.imgflip.com/efmn.jpg"
+  },
+  {
+    "id": "93160967",
+    "name": "Skinner Out Of Touch",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Am I out of touch?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'No, it's the X who are wrong'"
+      }
+    ],
+    "usage": "Refusing to admit you're out of touch.",
+    "tags": [
+      "out of touch",
+      "denial",
+      "old",
+      "skinner"
+    ],
+    "example": [
+      "Am I out of touch?",
+      "No, it's the kids who are wrong"
+    ],
+    "previewUrl": "https://i.imgflip.com/1jgrgn.jpg"
+  },
+  {
+    "id": "316989420",
+    "name": "Average Fan vs Average Enjoyer",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left: the stressed 'average X fan'"
+      },
+      {
+        "index": 2,
+        "role": "right: the relaxed 'average Y enjoyer'"
+      }
+    ],
+    "usage": "Comparing a stressed 'fan' with a relaxed 'enjoyer'.",
+    "tags": [
+      "fan vs enjoyer",
+      "comparison",
+      "chad",
+      "preference"
+    ],
+    "example": [
+      "Average gym fan",
+      "Average nap enjoyer"
+    ],
+    "previewUrl": "https://i.imgflip.com/58q6lo.png"
+  },
+  {
+    "id": "74191766",
+    "name": "Arthur Fist",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the infuriating thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the clenched fist"
+      }
+    ],
+    "usage": "Suppressed rage.",
+    "tags": [
+      "anger",
+      "rage",
+      "frustration",
+      "arthur"
+    ],
+    "example": [
+      "When someone says 'calm down'",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/1866qe.jpg"
+  },
+  {
+    "id": "356615",
+    "name": "Peter Griffin News",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'You know what really grinds my gears?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the pet peeve"
+      }
+    ],
+    "usage": "Ranting about a pet peeve.",
+    "tags": [
+      "rant",
+      "pet peeve",
+      "annoyance",
+      "peter griffin"
+    ],
+    "example": [
+      "You know what really grinds my gears?",
+      "People who stop at the top of escalators"
+    ],
+    "previewUrl": "https://i.imgflip.com/7n5z.jpg"
+  },
+  {
+    "id": "228024",
+    "name": "Liam Neeson Taken",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'I don't know who you are…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…but I will find you'"
+      }
+    ],
+    "usage": "A threatening promise to find someone.",
+    "tags": [
+      "threat",
+      "revenge",
+      "taken",
+      "find you"
+    ],
+    "example": [
+      "I don't know who ate my lunch",
+      "but I will find you"
+    ],
+    "previewUrl": "https://i.imgflip.com/4vy0.jpg"
+  },
+  {
+    "id": "316466202",
+    "name": "where monkey",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Where X?'"
+      }
+    ],
+    "usage": "Asking where something you expected went.",
+    "tags": [
+      "where",
+      "missing",
+      "monkey",
+      "confused"
+    ],
+    "example": [
+      "Me after cleaning my room",
+      "Where charger?"
+    ],
+    "previewUrl": "https://i.imgflip.com/58eyvu.png"
   }
 ]

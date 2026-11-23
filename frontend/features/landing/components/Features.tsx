@@ -1,7 +1,7 @@
 import { Boxes, KeyRound, Link2, Sparkles } from "lucide-react";
 
 const features = [
-  { icon: Boxes, title: "80+ annotated templates", body: "Every box has a role, so the right text lands in the right place." },
+  { icon: Boxes, title: "170+ annotated templates", body: "Every box has a role, so the right text lands in the right place." },
   { icon: Sparkles, title: "Smart suggestions", body: "Describe the joke; the assistant gets the templates that fit its shape." },
   { icon: KeyRound, title: "No accounts", body: "Your Imgflip login lives only inside your encrypted token." },
   { icon: Link2, title: "Works everywhere", body: "Standard MCP over HTTP, plus a web playground with shareable links." },
