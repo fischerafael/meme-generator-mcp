@@ -1,0 +1,737 @@
+[
+  {
+    "id": "61520",
+    "name": "Futurama Fry",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Not sure if…'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: '…or just…'"
+      }
+    ],
+    "usage": "Being unsure whether something is one thing or another.",
+    "example": [
+      "Not sure if it's a bug",
+      "or an undocumented feature"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bgw.jpg"
+  },
+  {
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'One does not simply'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the deceptively hard task"
+      }
+    ],
+    "usage": "Something that sounds easy but is actually very hard.",
+    "example": [
+      "One does not simply",
+      "Center a div"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bij.jpg"
+  },
+  {
+    "id": "97984",
+    "name": "Disaster Girl",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup / what happened"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the smug culprit"
+      }
+    ],
+    "usage": "Someone smiling innocently while chaos they caused burns behind them.",
+    "example": [
+      "Production is on fire",
+      "I pushed straight to main"
+    ],
+    "previewUrl": "https://i.imgflip.com/23ls.jpg"
+  },
+  {
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the question / setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the absurd explanation"
+      }
+    ],
+    "usage": "Blame something mysterious or obsessive for any explanation.",
+    "example": [
+      "Why did the build pass?",
+      "Cache"
+    ],
+    "previewUrl": "https://i.imgflip.com/26am.jpg"
+  },
+  {
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "Robin: the naive statement being cut off"
+      },
+      {
+        "index": 2,
+        "role": "Batman: the slap / correction"
+      }
+    ],
+    "usage": "Shutting down a dumb or naive statement mid-sentence.",
+    "example": [
+      "Let's just rewrite it in…",
+      "The rewrite will take 3 years"
+    ],
+    "previewUrl": "https://i.imgflip.com/9ehk.jpg"
+  },
+  {
+    "id": "1035805",
+    "name": "Boardroom Meeting Suggestion",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the boss's question"
+      },
+      {
+        "index": 2,
+        "role": "first employee's bad suggestion"
+      },
+      {
+        "index": 3,
+        "role": "second employee's bad suggestion"
+      },
+      {
+        "index": 4,
+        "role": "third employee's reasonable suggestion (gets thrown out)"
+      }
+    ],
+    "usage": "The one reasonable suggestion in a meeting gets someone thrown out the window.",
+    "example": [
+      "How do we ship faster?",
+      "More meetings",
+      "Hire more managers",
+      "Fewer meetings"
+    ],
+    "previewUrl": "https://i.imgflip.com/m78d.jpg"
+  },
+  {
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what you are waiting for"
+      },
+      {
+        "index": 2,
+        "role": "bottom: how long / who is waiting"
+      }
+    ],
+    "usage": "Waiting forever for something that never happens.",
+    "example": [
+      "Waiting for the PR review",
+      "since last sprint"
+    ],
+    "previewUrl": "https://i.imgflip.com/2fm6x.jpg"
+  },
+  {
+    "id": "5496396",
+    "name": "Leonardo Dicaprio Cheers",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the thing being celebrated"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the toast"
+      }
+    ],
+    "usage": "Raising a toast to something or someone.",
+    "example": [
+      "To everyone who reads the README",
+      "Cheers"
+    ],
+    "previewUrl": "https://i.imgflip.com/39t1o.jpg"
+  },
+  {
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first panel: situation 1"
+      },
+      {
+        "index": 2,
+        "role": "second panel: situation 2"
+      },
+      {
+        "index": 3,
+        "role": "third panel: situation 3"
+      }
+    ],
+    "usage": "Waiting alone and sad for something across several moments.",
+    "example": [
+      "Waiting for CI",
+      "Waiting for review",
+      "Waiting for deploy"
+    ],
+    "previewUrl": "https://i.imgflip.com/1c1uej.jpg"
+  },
+  {
+    "id": "87743020",
+    "name": "Two Buttons",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left button: first option"
+      },
+      {
+        "index": 2,
+        "role": "right button: second option"
+      },
+      {
+        "index": 3,
+        "role": "the sweating person facing the choice"
+      }
+    ],
+    "usage": "A hard dilemma between two options, both tempting or both bad.",
+    "example": [
+      "Refactor everything",
+      "Ship it as is",
+      "Me at 6pm"
+    ],
+    "previewUrl": "https://i.imgflip.com/1g8my4.jpg"
+  },
+  {
+    "id": "89370399",
+    "name": "Roll Safe Think About It",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the problem"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the dubious clever solution"
+      }
+    ],
+    "usage": "A 'smart' but obviously flawed life hack.",
+    "example": [
+      "You can't have failing tests",
+      "if you don't write tests"
+    ],
+    "previewUrl": "https://i.imgflip.com/1h7in3.jpg"
+  },
+  {
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: Buzz pointing at the thing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'X, X everywhere'"
+      }
+    ],
+    "usage": "Something is suddenly everywhere.",
+    "example": [
+      "AI",
+      "AI everywhere"
+    ],
+    "previewUrl": "https://i.imgflip.com/1ihzfe.jpg"
+  },
+  {
+    "id": "93895088",
+    "name": "Expanding Brain",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "small brain: the basic idea"
+      },
+      {
+        "index": 2,
+        "role": "normal brain: a slightly smarter idea"
+      },
+      {
+        "index": 3,
+        "role": "glowing brain: a 'clever' idea"
+      },
+      {
+        "index": 4,
+        "role": "galaxy brain: the absurd 'genius' idea"
+      }
+    ],
+    "usage": "Escalating ideas from normal to absurdly 'enlightened', usually ironic.",
+    "example": [
+      "Fixing the bug",
+      "Adding a test for the bug",
+      "Adding a feature flag",
+      "Renaming the bug to a feature"
+    ],
+    "previewUrl": "https://i.imgflip.com/1jwhww.jpg"
+  },
+  {
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what was originally said"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the same thing in mOcKiNg case"
+      }
+    ],
+    "usage": "Mock someone by repeating what they said in a silly voice.",
+    "example": [
+      "It works on my machine",
+      "iT wOrKs On My MaChInE"
+    ],
+    "previewUrl": "https://i.imgflip.com/1otk96.jpg"
+  },
+  {
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the new temptation (woman in red)"
+      },
+      {
+        "index": 2,
+        "role": "the distracted boyfriend: who is tempted"
+      },
+      {
+        "index": 3,
+        "role": "the girlfriend: the current commitment being ignored"
+      }
+    ],
+    "usage": "Someone tempted by a shiny new thing while ignoring their current commitment.",
+    "example": [
+      "A new JS framework",
+      "Me",
+      "The side project I need to finish"
+    ],
+    "previewUrl": "https://i.imgflip.com/1ur9b0.jpg"
+  },
+  {
+    "id": "114585149",
+    "name": "Inhaling Seagull",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the calm question / setup"
+      },
+      {
+        "index": 2,
+        "role": "the seagull inhaling: tension building"
+      },
+      {
+        "index": 3,
+        "role": "inhaling harder"
+      },
+      {
+        "index": 4,
+        "role": "the scream: the outburst"
+      }
+    ],
+    "usage": "Building up to an exaggerated scream/outburst.",
+    "example": [
+      "Can you add one small thing?",
+      "Sure",
+      "",
+      "IT'S A NEW FEATURE"
+    ],
+    "previewUrl": "https://i.imgflip.com/1w7ygt.jpg"
+  },
+  {
+    "id": "119139145",
+    "name": "Blank Nut Button",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the button: the predictable reaction"
+      },
+      {
+        "index": 2,
+        "role": "the hand/person pressing it"
+      }
+    ],
+    "usage": "Pressing a button to reflexively give a predictable reaction.",
+    "example": [
+      "Have you tried turning it off and on again?",
+      "IT support"
+    ],
+    "previewUrl": "https://i.imgflip.com/1yxkcp.jpg"
+  },
+  {
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "straight road: the sensible option"
+      },
+      {
+        "index": 2,
+        "role": "exit ramp: the tempting/bad option"
+      },
+      {
+        "index": 3,
+        "role": "the car swerving: who makes the choice"
+      }
+    ],
+    "usage": "Someone abruptly swerving away from the sensible path toward a worse, tempting one.",
+    "example": [
+      "Writing tests",
+      "Testing in production",
+      "Me before a deadline"
+    ],
+    "previewUrl": "https://i.imgflip.com/22bdq6.jpg"
+  },
+  {
+    "id": "129242436",
+    "name": "Change My Mind",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the sign: the controversial opinion"
+      },
+      {
+        "index": 2,
+        "role": "optional caption (usually leave empty)"
+      }
+    ],
+    "usage": "State a controversial or strong opinion and dare people to disagree.",
+    "example": [
+      "Tabs are better than spaces",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/24y43o.jpg"
+  },
+  {
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "boxCount": 5,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the person in the first panel"
+      },
+      {
+        "index": 2,
+        "role": "the balloon: what they want"
+      },
+      {
+        "index": 3,
+        "role": "the person who grabs them: the obstacle"
+      },
+      {
+        "index": 4,
+        "role": "the person again, held back"
+      },
+      {
+        "index": 5,
+        "role": "the balloon again, floating away"
+      }
+    ],
+    "usage": "Something pulls a person away from what they want. 5 boxes.",
+    "example": [
+      "Me",
+      "Inbox zero",
+      "Slack notifications",
+      "Me",
+      "Inbox zero"
+    ],
+    "previewUrl": "https://i.imgflip.com/261o3j.jpg"
+  },
+  {
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "step 1 of the plan"
+      },
+      {
+        "index": 2,
+        "role": "step 2 of the plan"
+      },
+      {
+        "index": 3,
+        "role": "step 3: the step that backfires"
+      },
+      {
+        "index": 4,
+        "role": "step 3 again: Gru realizes"
+      }
+    ],
+    "usage": "A plan that looks great until its last step backfires.",
+    "example": [
+      "Write code",
+      "Skip tests",
+      "Bugs in production",
+      "Bugs in production"
+    ],
+    "previewUrl": "https://i.imgflip.com/26jxvz.jpg"
+  },
+  {
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left arm: first group"
+      },
+      {
+        "index": 2,
+        "role": "right arm: second group"
+      },
+      {
+        "index": 3,
+        "role": "the handshake: what they agree on"
+      }
+    ],
+    "usage": "Two different groups agreeing on one thing they share.",
+    "example": [
+      "Frontend devs",
+      "Backend devs",
+      "Blaming the designer"
+    ],
+    "previewUrl": "https://i.imgflip.com/28j0te.jpg"
+  },
+  {
+    "id": "145139900",
+    "name": "Scooby doo mask reveal",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the mask: the fake/assumed culprit"
+      },
+      {
+        "index": 2,
+        "role": "Fred: 'let's see who you really are'"
+      },
+      {
+        "index": 3,
+        "role": "unmasked face: the REAL culprit"
+      },
+      {
+        "index": 4,
+        "role": "Fred's conclusion / punchline"
+      }
+    ],
+    "usage": "Reveal that the real cause of a problem is something other than what everyone assumed.",
+    "example": [
+      "Slow database",
+      "Let's see who you really are",
+      "N+1 queries in the ORM",
+      "I knew it was you all along"
+    ],
+    "previewUrl": "https://i.imgflip.com/2eeunw.jpg"
+  },
+  {
+    "id": "155067746",
+    "name": "Surprised Pikachu",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the action"
+      },
+      {
+        "index": 2,
+        "role": "the predictable consequence"
+      },
+      {
+        "index": 3,
+        "role": "Pikachu: the surprised reaction (often left empty)"
+      }
+    ],
+    "usage": "Being shocked by an obvious consequence of your own action.",
+    "example": [
+      "Ships on Friday",
+      "Pager goes off on Saturday",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/2kbn1e.jpg"
+  },
+  {
+    "id": "178591752",
+    "name": "Tuxedo Winnie The Pooh",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "casual Pooh: the plain way to say it"
+      },
+      {
+        "index": 2,
+        "role": "tuxedo Pooh: the fancy way to say it"
+      }
+    ],
+    "usage": "The same thing, phrased plainly vs. fancily.",
+    "example": [
+      "Copying from Stack Overflow",
+      "Leveraging community-driven knowledge"
+    ],
+    "previewUrl": "https://i.imgflip.com/2ybua0.png"
+  },
+  {
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "Drake rejecting: the option you dislike"
+      },
+      {
+        "index": 2,
+        "role": "Drake approving: the option you prefer"
+      }
+    ],
+    "usage": "Prefer one option over another: the rejected one first, the approved one second.",
+    "example": [
+      "Deploying on Friday afternoon",
+      "Deploying on Monday morning"
+    ],
+    "previewUrl": "https://i.imgflip.com/30b1gx.jpg"
+  },
+  {
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the yelling woman: the angry accusation"
+      },
+      {
+        "index": 2,
+        "role": "the cat: the confused/smug reply"
+      }
+    ],
+    "usage": "An angry accusation answered by a confused, unbothered reply.",
+    "example": [
+      "You said it would take 2 days!",
+      "I said 2 days of focus time"
+    ],
+    "previewUrl": "https://i.imgflip.com/345v97.jpg"
+  },
+  {
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the card: 'do X or draw 25'"
+      },
+      {
+        "index": 2,
+        "role": "the person holding a huge hand: who refused"
+      }
+    ],
+    "usage": "Someone would rather suffer a big penalty than do one simple thing.",
+    "example": [
+      "Read the docs or draw 25",
+      "Developers"
+    ],
+    "previewUrl": "https://i.imgflip.com/3lmzyx.jpg"
+  },
+  {
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'I am once again asking'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the repeated request"
+      }
+    ],
+    "usage": "Asking yet again for something you have asked for many times.",
+    "example": [
+      "I am once again asking",
+      "for you to write a PR description"
+    ],
+    "previewUrl": "https://i.imgflip.com/3oevdk.jpg"
+  },
+  {
+    "id": "247375501",
+    "name": "Buff Doge vs. Cheems",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "Buff Doge's label: the strong past thing"
+      },
+      {
+        "index": 2,
+        "role": "Cheems's label: the weak current thing"
+      },
+      {
+        "index": 3,
+        "role": "Buff Doge's line"
+      },
+      {
+        "index": 4,
+        "role": "Cheems's line"
+      }
+    ],
+    "usage": "Compare a strong past version with a weak present version.",
+    "example": [
+      "Devs in 1999",
+      "Devs in 2025",
+      "I wrote an OS in assembly",
+      "npm install is-odd"
+    ],
+    "previewUrl": "https://i.imgflip.com/43a45p.png"
+  }
+]
