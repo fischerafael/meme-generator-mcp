@@ -14,5 +14,5 @@
     "types": ["node", "vite/client"],
     "paths": { "@/*": ["./frontend/*"] }
   },
-  "include": ["api", "backend", "frontend", "shared", "vite.config.ts", "vitest.config.ts"]
+  "include": ["scripts", "api", "backend", "frontend", "shared", "vite.config.ts", "vitest.config.ts"]
 }
