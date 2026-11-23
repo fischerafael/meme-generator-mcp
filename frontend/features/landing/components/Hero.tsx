@@ -5,22 +5,22 @@ import { Button } from "@/components/ui/button";
 export function Hero() {
   return (
     <section className="flex flex-col items-start gap-6">
-      <span className="rounded-full border px-3 py-1 text-xs text-muted-foreground">MCP connector · Imgflip</span>
+      <span className="rounded-full border px-3 py-1 text-xs text-muted-foreground">Open-source MCP server · Imgflip</span>
       <h1 className="max-w-2xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-        Let Claude make memes for you.
+        Give your AI assistant a meme generator.
       </h1>
       <p className="max-w-xl text-lg text-muted-foreground text-pretty">
-        Generate an encrypted token from your Imgflip account, add it as a connector in Claude, and ask for memes in
-        plain English. No accounts, no database.
+        Connect any MCP-compatible assistant (Claude, ChatGPT, Cursor, VS Code and more) and ask for memes in plain
+        language. It picks the right template, fills every box in the right order and hands you the image.
       </p>
       <div className="flex flex-wrap gap-3">
         <Button asChild size="lg">
           <Link to="/setup">
-            Generate token <ArrowRight />
+            Get started <ArrowRight />
           </Link>
         </Button>
         <Button asChild size="lg" variant="outline">
-          <Link to="/templates">Browse templates</Link>
+          <Link to="/how-it-works">How it works</Link>
         </Button>
       </div>
     </section>

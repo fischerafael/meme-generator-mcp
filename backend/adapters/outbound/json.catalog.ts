@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { TemplateSchema } from "../../../shared/schemas.js";
-import { matchesQuery, type Template } from "../../domain/template.js";
+import { rankTemplates, type Template } from "../../domain/template.js";
 import type { TemplateCatalogPort } from "../../ports/template-catalog.port.js";
 
 export const DEFAULT_CATALOG_PATH = path.join(process.cwd(), "data", "templates-catalog.json");
@@ -15,7 +15,7 @@ export class JsonCatalog implements TemplateCatalogPort {
   }
 
   async list(query?: string, limit?: number): Promise<Template[]> {
-    const items = query ? this.templates.filter((t) => matchesQuery(t, query)) : this.templates;
+    const items = query ? rankTemplates(this.templates, query) : this.templates;
     return limit ? items.slice(0, limit) : items;
   }
 

@@ -1,9 +1,15 @@
 import { ValidationError } from "./errors.js";
 import type { Template } from "./template.js";
 
+export type MemeFont = "impact" | "arial";
+
 export interface MemeRequest {
   templateId: string;
   texts: string[];
+  /** Imgflip font. Defaults to impact. */
+  font?: MemeFont;
+  /** Max font size in px; Imgflip shrinks text to fit up to this size. */
+  maxFontSize?: number;
 }
 
 export interface Meme {

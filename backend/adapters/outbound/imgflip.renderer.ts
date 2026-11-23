@@ -20,6 +20,8 @@ export class ImgflipRenderer implements MemeRendererPort {
     params.set("template_id", req.templateId);
     params.set("username", creds.username);
     params.set("password", creds.password);
+    if (req.font) params.set("font", req.font);
+    if (req.maxFontSize) params.set("max_font_size", String(req.maxFontSize));
     req.texts.forEach((text, i) => params.set(`boxes[${i}][text]`, text));
 
     let body: CaptionImageResponse;

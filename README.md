@@ -1,11 +1,11 @@
 # meme-generator-mcp
 
-A web app + MCP server that lets Claude generate memes through the [Imgflip](https://imgflip.com) API.
+An open-source MCP server + web app that lets any AI assistant (Claude, ChatGPT, Cursor, VS Code…) generate memes through the [Imgflip](https://imgflip.com) API.
 
 - **No accounts, no database.** You turn your Imgflip username and password into an encrypted token (AES-256-GCM). The server decrypts it on each request and forgets it.
-- **MCP connector.** Paste the token as the Bearer token when adding the connector in Claude (web or desktop).
+- **MCP connector.** Paste the token as the Bearer token when adding the connector in your MCP client.
 - **Playground.** Generate memes directly in the browser. The URL keeps the template and texts, so links are shareable.
-- **Role-labeled templates.** Every template says what each text box means (`boxes[].role`), so the LLM puts the right text in the right place.
+- **82 role-labeled templates.** Every template says what each text box means (`boxes[].role`), when to use it, tags and an example, so the LLM puts the right text in the right place.
 
 ## Generate a token
 
@@ -13,7 +13,9 @@ A web app + MCP server that lets Claude generate memes through the [Imgflip](htt
 2. Open `/setup`, enter your Imgflip username and password, and press **Generate token**.
    The server makes one real Imgflip call to check the credentials, then returns `mg_v1_…`.
 
-## Add the connector in Claude
+## Connect your assistant
+
+Any MCP client that supports remote (Streamable HTTP) servers with a Bearer token works. In Claude:
 
 1. In Claude: **Settings → Connectors → Add custom connector**.
 2. URL: `https://<your-deployment>/api/mcp`
@@ -24,9 +26,12 @@ A web app + MCP server that lets Claude generate memes through the [Imgflip](htt
 
 | Tool | Input | Output |
 |---|---|---|
-| `list_templates` | `{ query?, limit? }` | templates with `boxes[].role`, `usage`, `example` |
-| `get_template` | `{ id }` | one template |
-| `generate_meme` | `{ templateId, texts[] }` | `{ url, pageUrl }` |
+| `suggest_templates` | `{ situation, limit? }` | best-fitting full templates for the joke's shape |
+| `list_templates` | `{ query?, limit? }` | compact ranked list: `id, name, boxCount, usage, tags` |
+| `get_template` | `{ id }` | one full template (`boxes[].role`, `usage`, `tags`, `example`) |
+| `generate_meme` | `{ templateId, texts[], font?, maxFontSize? }` | `{ url, pageUrl }` + the image itself |
+
+The server also sends workflow/style **instructions** on connect and exposes a **`make_meme` prompt**.
 
 ## HTTP API
 
@@ -35,7 +40,7 @@ A web app + MCP server that lets Claude generate memes through the [Imgflip](htt
 | POST | `/api/token` | — | `{ username, password }` → `{ token }` |
 | GET | `/api/templates` | — | `?q=&limit=` → `{ items }` |
 | GET | `/api/templates/:id` | — | → `Template` |
-| POST | `/api/memes` | Bearer | `{ templateId, texts[] }` → `{ url, pageUrl, templateId }` |
+| POST | `/api/memes` | Bearer | `{ templateId, texts[], font?, maxFontSize? }` → `{ url, pageUrl, templateId }` |
 | POST/GET/DELETE | `/api/mcp` | Bearer | MCP (Streamable HTTP, stateless) |
 
 Errors look like `{ "error": { "code", "message" } }`. Missing or invalid tokens get `401` with
@@ -93,3 +98,11 @@ data/templates-catalog.json
 ```
 
 Frontend never imports `backend/`; backend never imports `frontend/`. Tokens and passwords are never logged.
+
+## Adding templates
+
+Templates live in `data/templates-catalog.json`. Each needs the Imgflip `id`, `boxCount`, one `boxes[].role` per box (in Imgflip's box order), `usage`, `tags`, an `example` per box and `previewUrl`. `npm test` validates the file.
+
+## License
+
+[MIT](LICENSE) © [Rafael Fischer](https://www.fischerafael.com.br/)

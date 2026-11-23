@@ -17,7 +17,7 @@ export function SetupContainer() {
     <div className="flex flex-col gap-8">
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold tracking-tight">Setup</h1>
-        <p className="text-muted-foreground">Two steps and Claude can make memes.</p>
+        <p className="text-muted-foreground">Two steps and your assistant can make memes.</p>
       </header>
       <div className="grid gap-6 lg:grid-cols-2">
         <TokenForm
@@ -27,7 +27,7 @@ export function SetupContainer() {
             issue.mutate(creds, {
               onSuccess: ({ token }) => {
                 setToken(token);
-                toast.success("Token generated. Copy it into Claude.");
+                toast.success("Token generated. Copy it into your assistant.");
               },
             })
           }

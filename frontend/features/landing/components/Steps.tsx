@@ -1,7 +1,7 @@
 const steps = [
-  { title: "Generate a token", body: "Enter your Imgflip username and password. We check them once and seal them into an encrypted token." },
-  { title: "Add the connector", body: "In Claude, add a custom connector with our MCP URL and paste the token as the Bearer token." },
-  { title: "Ask for a meme", body: "“Make a Scooby-Doo reveal meme about flaky tests.” Claude picks the template and fills each box." },
+  { title: "Generate a token", body: "Enter your free Imgflip login. We check it once and seal it into an encrypted token. Nothing is stored." },
+  { title: "Connect your assistant", body: "Add our MCP server URL as a custom connector and paste the token as the Bearer token." },
+  { title: "Ask for a meme", body: "“Make a Scooby-Doo reveal meme about flaky tests.” The assistant picks the template and fills each box." },
 ];
 
 export function Steps() {

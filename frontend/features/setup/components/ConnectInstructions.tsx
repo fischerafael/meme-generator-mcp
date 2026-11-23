@@ -13,8 +13,8 @@ export function ConnectInstructions({ mcpUrl, token, onCopy, onForget }: Props) 
   return (
     <Card>
       <CardHeader>
-        <CardTitle>2 · Add the connector in Claude</CardTitle>
-        <CardDescription>Works in Claude on the web and desktop.</CardDescription>
+        <CardTitle>2 · Connect your assistant</CardTitle>
+        <CardDescription>Any MCP client that supports remote servers with a Bearer token: Claude, ChatGPT, Cursor, VS Code…</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-5">
         <CopyField id="mcp-url" label="MCP server URL" value={mcpUrl} onCopy={(v) => onCopy(v, "URL copied")} />
@@ -26,9 +26,9 @@ export function ConnectInstructions({ mcpUrl, token, onCopy, onForget }: Props) 
           </p>
         )}
         <ol className="grid list-decimal gap-1.5 pl-5 text-sm text-muted-foreground">
-          <li>Open Claude → Settings → Connectors → Add custom connector.</li>
+          <li>Open your assistant's connector settings (in Claude: Settings → Connectors → Add custom connector).</li>
           <li>Paste the MCP server URL above.</li>
-          <li>Paste the token as the Bearer token (Authorization header).</li>
+          <li>Paste the token as the Bearer token (<code className="font-mono text-xs">Authorization</code> header).</li>
           <li>
             Ask: <em>“Make a Scooby-Doo mask reveal meme: everyone blamed the database, it was the N+1 queries.”</em>
           </li>

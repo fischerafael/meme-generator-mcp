@@ -11,6 +11,7 @@ export const TemplateSchema = z.object({
   boxCount: z.number().int().min(1),
   boxes: z.array(TemplateBoxSchema).min(1),
   usage: z.string().min(1),
+  tags: z.array(z.string().min(1)).min(1),
   example: z.array(z.string()).optional(),
   previewUrl: z.string().url(),
 });
@@ -25,9 +26,13 @@ export type TemplateListQuery = z.infer<typeof TemplateListQuerySchema>;
 export const TemplateListResponseSchema = z.object({ items: z.array(TemplateSchema) });
 export type TemplateListResponse = z.infer<typeof TemplateListResponseSchema>;
 
+export const MemeFontSchema = z.enum(["impact", "arial"]);
+
 export const MemeRequestSchema = z.object({
   templateId: z.string().min(1),
   texts: z.array(z.string().max(500)).min(1).max(20),
+  font: MemeFontSchema.optional(),
+  maxFontSize: z.number().int().min(10).max(100).optional(),
 });
 export type MemeRequest = z.infer<typeof MemeRequestSchema>;
 
