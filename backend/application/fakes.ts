@@ -1,6 +1,7 @@
 import { InvalidImgflipCredentialsError } from "../domain/errors.js";
 import type { ImgflipCreds, Meme, MemeRequest } from "../domain/meme.js";
-import type { Template } from "../domain/template.js";
+import { rankTemplates, type Template } from "../domain/template.js";
+import type { ImageLoaderPort } from "../ports/image-loader.port.js";
 import type { MemeRendererPort } from "../ports/meme-renderer.port.js";
 import type { TemplateCatalogPort } from "../ports/template-catalog.port.js";
 import type { TokenCipherPort } from "../ports/token-cipher.port.js";
@@ -16,6 +17,7 @@ export const scooby: Template = {
     { index: 4, role: "Fred's conclusion / punchline" },
   ],
   usage: "Reveal the real culprit.",
+  tags: ["reveal", "blame"],
   previewUrl: "https://i.imgflip.com/2wifvo.jpg",
 };
 export const drake: Template = {
@@ -27,13 +29,14 @@ export const drake: Template = {
     { index: 2, role: "approved" },
   ],
   usage: "Prefer one option.",
+  tags: ["preference", "comparison"],
   previewUrl: "https://i.imgflip.com/30b1gx.jpg",
 };
 
 export class FakeCatalog implements TemplateCatalogPort {
   constructor(private readonly items: Template[] = [scooby, drake]) {}
   async list(query?: string, limit?: number) {
-    const r = query ? this.items.filter((t) => t.name.toLowerCase().includes(query.toLowerCase())) : this.items;
+    const r = query ? rankTemplates(this.items, query) : this.items;
     return r.slice(0, limit);
   }
   async get(id: string) {
@@ -57,5 +60,11 @@ export class FakeCipher implements TokenCipherPort {
   }
   open(t: string): ImgflipCreds {
     return { username: t.replace("fake_", ""), password: "good" };
+  }
+}
+
+export class FakeImageLoader implements ImageLoaderPort {
+  async load(url: string) {
+    return url.startsWith("https://i.imgflip.com/") ? { data: "aW1n", mimeType: "image/jpeg" } : null;
   }
 }

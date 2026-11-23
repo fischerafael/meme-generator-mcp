@@ -24,3 +24,21 @@ describe("data/templates-catalog.json", () => {
     expect(await catalog.list("drake", 1)).toHaveLength(1);
   });
 });
+
+describe("search ranking", () => {
+  const catalog = new JsonCatalog();
+  const top = async (q: string, n = 3) => (await catalog.list(q, n)).map((t) => t.name);
+
+  it("finds templates by the shape of the joke", async () => {
+    expect(await top("the real culprit was someone else")).toContain("Scooby doo mask reveal");
+    expect(await top("choice between two bad options")).toEqual(expect.arrayContaining(["Two Buttons"]));
+    expect(await top("strong past vs weak present nostalgia")).toContain("Buff Doge vs. Cheems");
+    expect(await top("everyone thinks it's fine while disaster happens", 5)).toContain("This Is Fine");
+  });
+
+  it("has at least 80 templates, all tagged", async () => {
+    const all = await catalog.list();
+    expect(all.length).toBeGreaterThanOrEqual(80);
+    expect(all.every((t) => t.tags.length > 0)).toBe(true);
+  });
+});

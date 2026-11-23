@@ -5,11 +5,13 @@ import { createGetTemplateHandler, createListTemplatesHandler } from "../backend
 import { createTokenHandler } from "../backend/adapters/inbound/http/token.handler.js";
 import { createMcpHandler } from "../backend/adapters/inbound/mcp/handler.js";
 import { AesGcmCipher } from "../backend/adapters/outbound/aesgcm.cipher.js";
-import { FakeCatalog, FakeRenderer, scooby } from "../backend/application/fakes.js";
+import { FakeCatalog, FakeImageLoader, FakeRenderer, scooby } from "../backend/application/fakes.js";
 import { GenerateMeme } from "../backend/application/generate-meme.js";
 import { GetTemplate } from "../backend/application/get-template.js";
 import { IssueToken } from "../backend/application/issue-token.js";
 import { ListTemplates } from "../backend/application/list-templates.js";
+import { SuggestTemplates } from "../backend/application/suggest-templates.js";
+import { GetMemeImage } from "../backend/application/get-meme-image.js";
 import type { Container } from "../backend/composition-root.js";
 
 function makeContainer(): Container & { renderer: FakeRenderer } {
@@ -23,6 +25,8 @@ function makeContainer(): Container & { renderer: FakeRenderer } {
     getTemplate: new GetTemplate(catalog),
     generateMeme: new GenerateMeme(catalog, renderer),
     issueToken: new IssueToken(renderer, cipher),
+    suggestTemplates: new SuggestTemplates(catalog),
+    getMemeImage: new GetMemeImage(new FakeImageLoader()),
   };
 }
 
@@ -115,10 +119,11 @@ describe("HTTP adapters", () => {
       ),
     );
     expect(init.status).toBe(200);
+    expect(JSON.stringify(await init.json())).toContain("boxes[].role");
 
     const list = await handler(rpc({ jsonrpc: "2.0", id: 2, method: "tools/list" }, auth));
     const tools = ((await list.json()) as { result: { tools: { name: string; description: string }[] } }).result.tools;
-    expect(tools.map((t) => t.name).sort()).toEqual(["generate_meme", "get_template", "list_templates"]);
+    expect(tools.map((t) => t.name).sort()).toEqual(["generate_meme", "get_template", "list_templates", "suggest_templates"]);
     expect(tools.find((t) => t.name === "generate_meme")!.description).toContain(
       "Call get_template first and read boxes[].role. texts[i] goes into box i, in order.",
     );
@@ -134,8 +139,24 @@ describe("HTTP adapters", () => {
         auth,
       ),
     );
-    const result = ((await call.json()) as { result: { structuredContent: { url: string } } }).result;
+    const result = ((await call.json()) as {
+      result: { structuredContent: { url: string }; content: { type: string; mimeType?: string }[] };
+    }).result;
     expect(result.structuredContent.url).toContain(scooby.id);
+    expect(result.content.find((c) => c.type === "image")?.mimeType).toBe("image/jpeg");
+
+    const suggest = await handler(
+      rpc({ jsonrpc: "2.0", id: 4, method: "tools/call", params: { name: "suggest_templates", arguments: { situation: "the real culprit was revealed" } } }, auth),
+    );
+    const items = ((await suggest.json()) as { result: { structuredContent: { items: { id: string }[] } } }).result.structuredContent.items;
+    expect(items[0]!.id).toBe(scooby.id);
+
+    const listCall = await handler(rpc({ jsonrpc: "2.0", id: 5, method: "tools/call", params: { name: "list_templates", arguments: {} } }, auth));
+    const listed = ((await listCall.json()) as { result: { structuredContent: { items: Record<string, unknown>[] } } }).result.structuredContent.items;
+    expect(listed[0]).not.toHaveProperty("boxes");
+
+    const prompts = await handler(rpc({ jsonrpc: "2.0", id: 6, method: "prompts/list" }, auth));
+    expect(JSON.stringify(await prompts.json())).toContain("make_meme");
     expect(c.renderer.calls[0]!.req.texts[2]).toBe("Jenkins");
   });
 

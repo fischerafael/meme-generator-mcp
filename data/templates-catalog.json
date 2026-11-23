@@ -15,10 +15,16 @@
     ],
     "usage": "Being unsure whether something is one thing or another.",
     "example": [
-      "Not sure if it's a bug",
-      "or an undocumented feature"
+      "Not sure if hungry",
+      "or just bored"
     ],
-    "previewUrl": "https://i.imgflip.com/1bgw.jpg"
+    "previewUrl": "https://i.imgflip.com/1bgw.jpg",
+    "tags": [
+      "unsure",
+      "suspicious",
+      "doubt",
+      "either or"
+    ]
   },
   {
     "id": "61579",
@@ -37,9 +43,15 @@
     "usage": "Something that sounds easy but is actually very hard.",
     "example": [
       "One does not simply",
-      "Center a div"
+      "Eat just one chip"
     ],
-    "previewUrl": "https://i.imgflip.com/1bij.jpg"
+    "previewUrl": "https://i.imgflip.com/1bij.jpg",
+    "tags": [
+      "hard task",
+      "deceptively hard",
+      "warning",
+      "boromir"
+    ]
   },
   {
     "id": "97984",
@@ -60,7 +72,13 @@
       "Production is on fire",
       "I pushed straight to main"
     ],
-    "previewUrl": "https://i.imgflip.com/23ls.jpg"
+    "previewUrl": "https://i.imgflip.com/23ls.jpg",
+    "tags": [
+      "chaos",
+      "culprit",
+      "smug",
+      "destruction"
+    ]
   },
   {
     "id": "101470",
@@ -78,10 +96,16 @@
     ],
     "usage": "Blame something mysterious or obsessive for any explanation.",
     "example": [
-      "Why did the build pass?",
-      "Cache"
+      "Why are my socks always missing?",
+      "Aliens"
     ],
-    "previewUrl": "https://i.imgflip.com/26am.jpg"
+    "previewUrl": "https://i.imgflip.com/26am.jpg",
+    "tags": [
+      "conspiracy",
+      "absurd explanation",
+      "blame",
+      "aliens"
+    ]
   },
   {
     "id": "438680",
@@ -102,7 +126,13 @@
       "Let's just rewrite it in…",
       "The rewrite will take 3 years"
     ],
-    "previewUrl": "https://i.imgflip.com/9ehk.jpg"
+    "previewUrl": "https://i.imgflip.com/9ehk.jpg",
+    "tags": [
+      "shut down",
+      "correction",
+      "interrupt",
+      "slap"
+    ]
   },
   {
     "id": "1035805",
@@ -133,7 +163,13 @@
       "Hire more managers",
       "Fewer meetings"
     ],
-    "previewUrl": "https://i.imgflip.com/m78d.jpg"
+    "previewUrl": "https://i.imgflip.com/m78d.jpg",
+    "tags": [
+      "meeting",
+      "bad ideas",
+      "fired",
+      "reasonable idea punished"
+    ]
   },
   {
     "id": "4087833",
@@ -151,10 +187,16 @@
     ],
     "usage": "Waiting forever for something that never happens.",
     "example": [
-      "Waiting for the PR review",
-      "since last sprint"
+      "Me waiting for my package",
+      "tracking: 'out for delivery' since Tuesday"
     ],
-    "previewUrl": "https://i.imgflip.com/2fm6x.jpg"
+    "previewUrl": "https://i.imgflip.com/2fm6x.jpg",
+    "tags": [
+      "waiting",
+      "forever",
+      "delay",
+      "neglect"
+    ]
   },
   {
     "id": "5496396",
@@ -175,7 +217,13 @@
       "To everyone who reads the README",
       "Cheers"
     ],
-    "previewUrl": "https://i.imgflip.com/39t1o.jpg"
+    "previewUrl": "https://i.imgflip.com/39t1o.jpg",
+    "tags": [
+      "toast",
+      "celebration",
+      "cheers",
+      "appreciation"
+    ]
   },
   {
     "id": "80707627",
@@ -201,7 +249,13 @@
       "Waiting for review",
       "Waiting for deploy"
     ],
-    "previewUrl": "https://i.imgflip.com/1c1uej.jpg"
+    "previewUrl": "https://i.imgflip.com/1c1uej.jpg",
+    "tags": [
+      "lonely",
+      "waiting",
+      "sad",
+      "alone"
+    ]
   },
   {
     "id": "87743020",
@@ -223,11 +277,17 @@
     ],
     "usage": "A hard dilemma between two options, both tempting or both bad.",
     "example": [
-      "Refactor everything",
-      "Ship it as is",
-      "Me at 6pm"
+      "Save money",
+      "Buy the concert tickets",
+      "Me on payday"
     ],
-    "previewUrl": "https://i.imgflip.com/1g8my4.jpg"
+    "previewUrl": "https://i.imgflip.com/1g8my4.jpg",
+    "tags": [
+      "dilemma",
+      "choice",
+      "indecision",
+      "anxiety"
+    ]
   },
   {
     "id": "89370399",
@@ -248,7 +308,13 @@
       "You can't have failing tests",
       "if you don't write tests"
     ],
-    "previewUrl": "https://i.imgflip.com/1h7in3.jpg"
+    "previewUrl": "https://i.imgflip.com/1h7in3.jpg",
+    "tags": [
+      "life hack",
+      "flawed logic",
+      "clever",
+      "smart"
+    ]
   },
   {
     "id": "91538330",
@@ -269,7 +335,13 @@
       "AI",
       "AI everywhere"
     ],
-    "previewUrl": "https://i.imgflip.com/1ihzfe.jpg"
+    "previewUrl": "https://i.imgflip.com/1ihzfe.jpg",
+    "tags": [
+      "everywhere",
+      "trend",
+      "ubiquitous",
+      "buzz"
+    ]
   },
   {
     "id": "93895088",
@@ -300,7 +372,13 @@
       "Adding a feature flag",
       "Renaming the bug to a feature"
     ],
-    "previewUrl": "https://i.imgflip.com/1jwhww.jpg"
+    "previewUrl": "https://i.imgflip.com/1jwhww.jpg",
+    "tags": [
+      "escalation",
+      "galaxy brain",
+      "irony",
+      "levels"
+    ]
   },
   {
     "id": "102156234",
@@ -318,10 +396,16 @@
     ],
     "usage": "Mock someone by repeating what they said in a silly voice.",
     "example": [
-      "It works on my machine",
-      "iT wOrKs On My MaChInE"
+      "You should drink more water",
+      "yOu ShOuLd DrInK mOrE wAtEr"
     ],
-    "previewUrl": "https://i.imgflip.com/1otk96.jpg"
+    "previewUrl": "https://i.imgflip.com/1otk96.jpg",
+    "tags": [
+      "mocking",
+      "sarcasm",
+      "repeat",
+      "dismissive"
+    ]
   },
   {
     "id": "112126428",
@@ -347,7 +431,13 @@
       "Me",
       "The side project I need to finish"
     ],
-    "previewUrl": "https://i.imgflip.com/1ur9b0.jpg"
+    "previewUrl": "https://i.imgflip.com/1ur9b0.jpg",
+    "tags": [
+      "temptation",
+      "distraction",
+      "new shiny thing",
+      "betrayal"
+    ]
   },
   {
     "id": "114585149",
@@ -378,7 +468,13 @@
       "",
       "IT'S A NEW FEATURE"
     ],
-    "previewUrl": "https://i.imgflip.com/1w7ygt.jpg"
+    "previewUrl": "https://i.imgflip.com/1w7ygt.jpg",
+    "tags": [
+      "outburst",
+      "scream",
+      "build up",
+      "exaggeration"
+    ]
   },
   {
     "id": "119139145",
@@ -399,7 +495,13 @@
       "Have you tried turning it off and on again?",
       "IT support"
     ],
-    "previewUrl": "https://i.imgflip.com/1yxkcp.jpg"
+    "previewUrl": "https://i.imgflip.com/1yxkcp.jpg",
+    "tags": [
+      "reflex",
+      "predictable reaction",
+      "button",
+      "urge"
+    ]
   },
   {
     "id": "124822590",
@@ -421,11 +523,17 @@
     ],
     "usage": "Someone abruptly swerving away from the sensible path toward a worse, tempting one.",
     "example": [
-      "Writing tests",
-      "Testing in production",
-      "Me before a deadline"
+      "Going to bed early",
+      "One more episode",
+      "Me at 1am"
     ],
-    "previewUrl": "https://i.imgflip.com/22bdq6.jpg"
+    "previewUrl": "https://i.imgflip.com/22bdq6.jpg",
+    "tags": [
+      "bad choice",
+      "temptation",
+      "swerve",
+      "impulse"
+    ]
   },
   {
     "id": "129242436",
@@ -443,10 +551,16 @@
     ],
     "usage": "State a controversial or strong opinion and dare people to disagree.",
     "example": [
-      "Tabs are better than spaces",
+      "Pineapple belongs on pizza",
       ""
     ],
-    "previewUrl": "https://i.imgflip.com/24y43o.jpg"
+    "previewUrl": "https://i.imgflip.com/24y43o.jpg",
+    "tags": [
+      "opinion",
+      "hot take",
+      "controversial",
+      "debate"
+    ]
   },
   {
     "id": "131087935",
@@ -482,7 +596,13 @@
       "Me",
       "Inbox zero"
     ],
-    "previewUrl": "https://i.imgflip.com/261o3j.jpg"
+    "previewUrl": "https://i.imgflip.com/261o3j.jpg",
+    "tags": [
+      "obstacle",
+      "held back",
+      "distraction",
+      "goal"
+    ]
   },
   {
     "id": "131940431",
@@ -508,12 +628,18 @@
     ],
     "usage": "A plan that looks great until its last step backfires.",
     "example": [
-      "Write code",
-      "Skip tests",
-      "Bugs in production",
-      "Bugs in production"
+      "Start a diet",
+      "Buy healthy food",
+      "Eat it all on day one",
+      "Eat it all on day one"
     ],
-    "previewUrl": "https://i.imgflip.com/26jxvz.jpg"
+    "previewUrl": "https://i.imgflip.com/26jxvz.jpg",
+    "tags": [
+      "plan",
+      "backfire",
+      "realization",
+      "steps"
+    ]
   },
   {
     "id": "135256802",
@@ -539,7 +665,13 @@
       "Backend devs",
       "Blaming the designer"
     ],
-    "previewUrl": "https://i.imgflip.com/28j0te.jpg"
+    "previewUrl": "https://i.imgflip.com/28j0te.jpg",
+    "tags": [
+      "agreement",
+      "common ground",
+      "unity",
+      "handshake"
+    ]
   },
   {
     "id": "145139900",
@@ -570,7 +702,14 @@
       "N+1 queries in the ORM",
       "I knew it was you all along"
     ],
-    "previewUrl": "https://i.imgflip.com/2eeunw.jpg"
+    "previewUrl": "https://i.imgflip.com/2eeunw.jpg",
+    "tags": [
+      "reveal",
+      "real cause",
+      "blame",
+      "plot twist",
+      "truth"
+    ]
   },
   {
     "id": "155067746",
@@ -596,7 +735,13 @@
       "Pager goes off on Saturday",
       ""
     ],
-    "previewUrl": "https://i.imgflip.com/2kbn1e.jpg"
+    "previewUrl": "https://i.imgflip.com/2kbn1e.jpg",
+    "tags": [
+      "obvious consequence",
+      "shock",
+      "surprise",
+      "predictable"
+    ]
   },
   {
     "id": "178591752",
@@ -614,10 +759,16 @@
     ],
     "usage": "The same thing, phrased plainly vs. fancily.",
     "example": [
-      "Copying from Stack Overflow",
-      "Leveraging community-driven knowledge"
+      "Leftovers",
+      "A curated selection of yesterday's cuisine"
     ],
-    "previewUrl": "https://i.imgflip.com/2ybua0.png"
+    "previewUrl": "https://i.imgflip.com/2ybua0.png",
+    "tags": [
+      "fancy vs plain",
+      "classy",
+      "rephrase",
+      "sophisticated"
+    ]
   },
   {
     "id": "181913649",
@@ -635,10 +786,16 @@
     ],
     "usage": "Prefer one option over another: the rejected one first, the approved one second.",
     "example": [
-      "Deploying on Friday afternoon",
-      "Deploying on Monday morning"
+      "Cooking dinner after work",
+      "Cereal for dinner"
     ],
-    "previewUrl": "https://i.imgflip.com/30b1gx.jpg"
+    "previewUrl": "https://i.imgflip.com/30b1gx.jpg",
+    "tags": [
+      "preference",
+      "comparison",
+      "reject vs approve",
+      "choice"
+    ]
   },
   {
     "id": "188390779",
@@ -659,7 +816,13 @@
       "You said it would take 2 days!",
       "I said 2 days of focus time"
     ],
-    "previewUrl": "https://i.imgflip.com/345v97.jpg"
+    "previewUrl": "https://i.imgflip.com/345v97.jpg",
+    "tags": [
+      "argument",
+      "accusation",
+      "confused reply",
+      "sass"
+    ]
   },
   {
     "id": "217743513",
@@ -677,10 +840,16 @@
     ],
     "usage": "Someone would rather suffer a big penalty than do one simple thing.",
     "example": [
-      "Read the docs or draw 25",
-      "Developers"
+      "Ask for directions or draw 25",
+      "Dad on a road trip"
     ],
-    "previewUrl": "https://i.imgflip.com/3lmzyx.jpg"
+    "previewUrl": "https://i.imgflip.com/3lmzyx.jpg",
+    "tags": [
+      "refusal",
+      "stubborn",
+      "avoidance",
+      "penalty"
+    ]
   },
   {
     "id": "222403160",
@@ -701,7 +870,12 @@
       "I am once again asking",
       "for you to write a PR description"
     ],
-    "previewUrl": "https://i.imgflip.com/3oevdk.jpg"
+    "previewUrl": "https://i.imgflip.com/3oevdk.jpg",
+    "tags": [
+      "repeated request",
+      "asking again",
+      "plea"
+    ]
   },
   {
     "id": "247375501",
@@ -727,11 +901,1536 @@
     ],
     "usage": "Compare a strong past version with a weak present version.",
     "example": [
-      "Devs in 1999",
-      "Devs in 2025",
-      "I wrote an OS in assembly",
-      "npm install is-odd"
+      "Kids in the 90s",
+      "Kids today",
+      "I played outside until the streetlights came on",
+      "The Wi-Fi is slow, my life is ruined"
     ],
-    "previewUrl": "https://i.imgflip.com/43a45p.png"
+    "previewUrl": "https://i.imgflip.com/43a45p.png",
+    "tags": [
+      "then vs now",
+      "nostalgia",
+      "strong vs weak",
+      "comparison"
+    ]
+  },
+  {
+    "id": "252600902",
+    "name": "Always Has Been",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first astronaut: 'Wait, it's all X?'"
+      },
+      {
+        "index": 2,
+        "role": "second astronaut with gun: 'Always has been'"
+      }
+    ],
+    "usage": "Discover something was true all along; the second astronaut confirms it ominously.",
+    "tags": [
+      "realization",
+      "always true",
+      "conspiracy",
+      "space"
+    ],
+    "example": [
+      "Wait, it's all meetings?",
+      "Always has been"
+    ],
+    "previewUrl": "https://i.imgflip.com/46e43q.png"
+  },
+  {
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "Anakin: the statement"
+      },
+      {
+        "index": 2,
+        "role": "Padme: 'for the good of…, right?'"
+      },
+      {
+        "index": 3,
+        "role": "Padme again: the worried 'right?'"
+      }
+    ],
+    "usage": "Someone assumes a good outcome and is met with silence that reveals the bad one.",
+    "tags": [
+      "assumption",
+      "awkward silence",
+      "doubt",
+      "star wars"
+    ],
+    "example": [
+      "I'm going to the gym",
+      "To work out, right?",
+      "To work out, right?"
+    ],
+    "previewUrl": "https://i.imgflip.com/5c7lwq.png"
+  },
+  {
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Marked safe from'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the event"
+      }
+    ],
+    "usage": "Ironically mark yourself 'safe' from an event you clearly didn't take part in.",
+    "tags": [
+      "ironic",
+      "safe from",
+      "social media",
+      "avoidance"
+    ],
+    "example": [
+      "Marked safe from",
+      "Going outside this weekend"
+    ],
+    "previewUrl": "https://i.imgflip.com/2odckz.jpg"
+  },
+  {
+    "id": "309868304",
+    "name": "Trade Offer",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "what I receive"
+      },
+      {
+        "index": 2,
+        "role": "what you receive"
+      },
+      {
+        "index": 3,
+        "role": "the guy: who offers the deal"
+      }
+    ],
+    "usage": "Propose a lopsided deal.",
+    "tags": [
+      "deal",
+      "trade",
+      "offer",
+      "negotiation"
+    ],
+    "example": [
+      "I receive: your fries",
+      "You receive: my company",
+      "Trade offer"
+    ],
+    "previewUrl": "https://i.imgflip.com/54hjww.jpg"
+  },
+  {
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Y'all got any more of'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the thing you crave"
+      }
+    ],
+    "usage": "Desperately craving more of something.",
+    "tags": [
+      "craving",
+      "addiction",
+      "want more",
+      "dave chappelle"
+    ],
+    "example": [
+      "Y'all got any more of",
+      "those three-day weekends"
+    ],
+    "previewUrl": "https://i.imgflip.com/21uy0f.jpg"
+  },
+  {
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the person: who is confused"
+      },
+      {
+        "index": 2,
+        "role": "the butterfly: the thing being misidentified"
+      },
+      {
+        "index": 3,
+        "role": "the caption: the wrong label ('Is this a…?')"
+      }
+    ],
+    "usage": "Misidentifying something obvious.",
+    "tags": [
+      "misidentify",
+      "confusion",
+      "wrong label",
+      "naive"
+    ],
+    "example": [
+      "Me",
+      "A slight inconvenience",
+      "Is this a crisis?"
+    ],
+    "previewUrl": "https://i.imgflip.com/1o00in.jpg"
+  },
+  {
+    "id": "79132341",
+    "name": "Bike Fall",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the stick being shoved"
+      },
+      {
+        "index": 2,
+        "role": "the rider: who shoves it"
+      },
+      {
+        "index": 3,
+        "role": "the fallen rider blaming something"
+      }
+    ],
+    "usage": "Sabotaging yourself and blaming something else.",
+    "tags": [
+      "self sabotage",
+      "blame",
+      "own fault",
+      "bike"
+    ],
+    "example": [
+      "Procrastinating",
+      "Me",
+      "Blaming the deadline"
+    ],
+    "previewUrl": "https://i.imgflip.com/1b42wl.jpg"
+  },
+  {
+    "id": "252758727",
+    "name": "Mother Ignoring Kid Drowning In A Pool",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the mother: who is paying attention"
+      },
+      {
+        "index": 2,
+        "role": "the kid she's focused on: the new thing"
+      },
+      {
+        "index": 3,
+        "role": "the drowning kid: what is being neglected"
+      },
+      {
+        "index": 4,
+        "role": "the skeleton: what was neglected even longer"
+      }
+    ],
+    "usage": "Getting excited about something new while ignoring what's dying from neglect.",
+    "tags": [
+      "neglect",
+      "new thing",
+      "forgotten",
+      "priorities"
+    ],
+    "example": [
+      "Me",
+      "New hobby",
+      "Last month's hobby",
+      "The guitar I bought in 2019"
+    ],
+    "previewUrl": "https://i.imgflip.com/46hhvr.jpg"
+  },
+  {
+    "id": "177682295",
+    "name": "You Guys are Getting Paid",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'You guys are getting paid?'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: who doesn't get paid"
+      }
+    ],
+    "usage": "Discovering others get rewarded for something you do for free.",
+    "tags": [
+      "unpaid",
+      "jealousy",
+      "free labor",
+      "surprise"
+    ],
+    "example": [
+      "You guys are getting paid?",
+      "Moms doing tech support for the family"
+    ],
+    "previewUrl": "https://i.imgflip.com/2xscjb.png"
+  },
+  {
+    "id": "180190441",
+    "name": "They're The Same Picture",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first picture: thing A"
+      },
+      {
+        "index": 2,
+        "role": "second picture: thing B"
+      },
+      {
+        "index": 3,
+        "role": "Pam: 'They're the same picture'"
+      }
+    ],
+    "usage": "Two things presented as different are actually identical.",
+    "tags": [
+      "same thing",
+      "identical",
+      "no difference",
+      "office"
+    ],
+    "example": [
+      "Being 'fashionably late'",
+      "Being late",
+      "They're the same picture"
+    ],
+    "previewUrl": "https://i.imgflip.com/2za3u1.jpg"
+  },
+  {
+    "id": "370867422",
+    "name": "Megamind peeking",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'No X?' or the sneaky hint"
+      }
+    ],
+    "usage": "Sneakily hinting at something / 'no X?'.",
+    "tags": [
+      "peeking",
+      "sneaky",
+      "hint",
+      "megamind"
+    ],
+    "example": [
+      "You have a car",
+      "No gas money?"
+    ],
+    "previewUrl": "https://i.imgflip.com/64sz4u.png"
+  },
+  {
+    "id": "3218037",
+    "name": "This Is Where I'd Put My Trophy If I Had One",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'This is where I'd put my trophy'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'if I had one'"
+      }
+    ],
+    "usage": "Pointing at an empty space where an achievement would be.",
+    "tags": [
+      "failure",
+      "no achievement",
+      "self deprecating",
+      "trophy"
+    ],
+    "example": [
+      "This is where I'd put my trophy",
+      "if I had one"
+    ],
+    "previewUrl": "https://i.imgflip.com/1wz1x.jpg"
+  },
+  {
+    "id": "67452763",
+    "name": "Squidward window",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: what others are doing"
+      },
+      {
+        "index": 2,
+        "role": "bottom: who watches from the window"
+      }
+    ],
+    "usage": "Watching others have fun while you're stuck.",
+    "tags": [
+      "jealousy",
+      "fomo",
+      "watching",
+      "left out"
+    ],
+    "example": [
+      "Everyone at the beach",
+      "Me at my desk"
+    ],
+    "previewUrl": "https://i.imgflip.com/145qvv.jpg"
+  },
+  {
+    "id": "55311130",
+    "name": "This Is Fine",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the disaster"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'This is fine'"
+      }
+    ],
+    "usage": "Pretending everything is fine while disaster unfolds.",
+    "tags": [
+      "denial",
+      "disaster",
+      "calm",
+      "fire"
+    ],
+    "example": [
+      "My inbox: 2,000 unread",
+      "This is fine"
+    ],
+    "previewUrl": "https://i.imgflip.com/wxica.jpg"
+  },
+  {
+    "id": "28251713",
+    "name": "Oprah You Get A",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'You get an X!'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Everybody gets an X!'"
+      }
+    ],
+    "usage": "Giving something to everyone, usually something unwanted.",
+    "tags": [
+      "everyone gets",
+      "generosity",
+      "oprah",
+      "excess"
+    ],
+    "example": [
+      "You get a meeting!",
+      "Everybody gets a meeting!"
+    ],
+    "previewUrl": "https://i.imgflip.com/gtj5t.jpg"
+  },
+  {
+    "id": "110163934",
+    "name": "I Bet He's Thinking About Other Women",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the woman: 'I bet he's thinking about other women'"
+      },
+      {
+        "index": 2,
+        "role": "the man: what he's actually thinking about"
+      }
+    ],
+    "usage": "Someone overthinks a relationship while the other thinks about something trivial.",
+    "tags": [
+      "overthinking",
+      "relationship",
+      "random thought",
+      "misunderstanding"
+    ],
+    "example": [
+      "I bet he's thinking about other women",
+      "Why do we park on driveways and drive on parkways?"
+    ],
+    "previewUrl": "https://i.imgflip.com/1tl71a.jpg"
+  },
+  {
+    "id": "533936279",
+    "name": "Bell Curve",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left (low IQ): the simple take"
+      },
+      {
+        "index": 2,
+        "role": "middle (average): the overcomplicated take"
+      },
+      {
+        "index": 3,
+        "role": "right (high IQ): the same simple take"
+      }
+    ],
+    "usage": "Low and high IQ agree on a simple answer while the middle overcomplicates it.",
+    "tags": [
+      "iq bell curve",
+      "midwit",
+      "overthinking",
+      "simple answer"
+    ],
+    "example": [
+      "Just sleep",
+      "You need melatonin, blackout curtains and a sleep tracker",
+      "Just sleep"
+    ],
+    "previewUrl": "https://i.imgflip.com/8tw3vb.png"
+  },
+  {
+    "id": "77045868",
+    "name": "Pawn Stars Best I Can Do",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the offer"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Best I can do is…'"
+      }
+    ],
+    "usage": "Offering a lowball counteroffer.",
+    "tags": [
+      "lowball",
+      "negotiation",
+      "counteroffer",
+      "pawn stars"
+    ],
+    "example": [
+      "You want a raise?",
+      "Best I can do is a pizza party"
+    ],
+    "previewUrl": "https://i.imgflip.com/19vcz0.jpg"
+  },
+  {
+    "id": "195515965",
+    "name": "Clown Applying Makeup",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "step 1: the reasonable start"
+      },
+      {
+        "index": 2,
+        "role": "step 2: getting sillier"
+      },
+      {
+        "index": 3,
+        "role": "step 3: even sillier"
+      },
+      {
+        "index": 4,
+        "role": "step 4: full clown"
+      }
+    ],
+    "usage": "Getting progressively more ridiculous while convincing yourself it's fine.",
+    "tags": [
+      "clown",
+      "self deception",
+      "escalation",
+      "foolish"
+    ],
+    "example": [
+      "I'll start the diet Monday",
+      "Monday is too stressful",
+      "Next month is better",
+      "New Year's resolution"
+    ],
+    "previewUrl": "https://i.imgflip.com/38el31.jpg"
+  },
+  {
+    "id": "284929871",
+    "name": "They don't know",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the secret detail people don't know"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the person at the party (usually 'They don't know…')"
+      }
+    ],
+    "usage": "Being proud of something nobody else knows or cares about.",
+    "tags": [
+      "secret",
+      "proud",
+      "nobody knows",
+      "party"
+    ],
+    "example": [
+      "They don't know I finished the whole pizza alone",
+      "Me at the party"
+    ],
+    "previewUrl": "https://i.imgflip.com/4pn1an.png"
+  },
+  {
+    "id": "171305372",
+    "name": "Soldier protecting sleeping child",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the soldier: the protector"
+      },
+      {
+        "index": 2,
+        "role": "the sleeping child: what is protected"
+      },
+      {
+        "index": 3,
+        "role": "the threat at the door"
+      }
+    ],
+    "usage": "Protecting something precious from a threat.",
+    "tags": [
+      "protect",
+      "defend",
+      "threat",
+      "guard"
+    ],
+    "example": [
+      "Me",
+      "My weekend plans",
+      "My boss texting on Friday at 5pm"
+    ],
+    "previewUrl": "https://i.imgflip.com/2tzo2k.jpg"
+  },
+  {
+    "id": "206151308",
+    "name": "Spider Man Triple",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first Spider-Man"
+      },
+      {
+        "index": 2,
+        "role": "second Spider-Man"
+      },
+      {
+        "index": 3,
+        "role": "third Spider-Man"
+      }
+    ],
+    "usage": "Three versions of the same person/thing accusing each other.",
+    "tags": [
+      "same thing",
+      "accusation",
+      "copies",
+      "spiderman"
+    ],
+    "example": [
+      "Me in the morning",
+      "Me at night",
+      "Me at 3am"
+    ],
+    "previewUrl": "https://i.imgflip.com/3eqjd8.jpg"
+  },
+  {
+    "id": "148909805",
+    "name": "Monkey Puppet",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the awkward situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the one looking away"
+      }
+    ],
+    "usage": "Awkwardly looking away after something uncomfortable.",
+    "tags": [
+      "awkward",
+      "look away",
+      "guilty",
+      "monkey"
+    ],
+    "example": [
+      "When someone asks who ate the last cookie",
+      "Me"
+    ],
+    "previewUrl": "https://i.imgflip.com/2gnnjh.jpg"
+  },
+  {
+    "id": "137501417",
+    "name": "Friendship ended",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Friendship ended with X'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'Now Y is my best friend'"
+      }
+    ],
+    "usage": "Replacing an old favorite with a new one.",
+    "tags": [
+      "replace",
+      "new favorite",
+      "breakup",
+      "friendship"
+    ],
+    "example": [
+      "Friendship ended with coffee",
+      "Now matcha is my best friend"
+    ],
+    "previewUrl": "https://i.imgflip.com/29v4rt.jpg"
+  },
+  {
+    "id": "354700819",
+    "name": "Two guys on a bus",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the calm guy facing the wall: the optimistic/ignorant view"
+      },
+      {
+        "index": 2,
+        "role": "the scared guy facing the window: the one who sees the danger"
+      }
+    ],
+    "usage": "Two people see the same situation completely differently.",
+    "tags": [
+      "perspective",
+      "optimist vs pessimist",
+      "awareness",
+      "bus"
+    ],
+    "example": [
+      "People who don't check their bank balance",
+      "People who do"
+    ],
+    "previewUrl": "https://i.imgflip.com/5v6gwj.jpg"
+  },
+  {
+    "id": "27813981",
+    "name": "Hide the Pain Harold",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the painful situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the forced smile"
+      }
+    ],
+    "usage": "Smiling through pain.",
+    "tags": [
+      "pain",
+      "fake smile",
+      "suffering",
+      "harold"
+    ],
+    "example": [
+      "When the barber asks if you like it",
+      "Love it"
+    ],
+    "previewUrl": "https://i.imgflip.com/gk5el.jpg"
+  },
+  {
+    "id": "216523697",
+    "name": "All My Homies Hate",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'All my homies hate X'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: optional addition"
+      }
+    ],
+    "usage": "Collectively hating something.",
+    "tags": [
+      "hate",
+      "group",
+      "dislike",
+      "homies"
+    ],
+    "example": [
+      "All my homies hate Mondays",
+      ""
+    ],
+    "previewUrl": "https://i.imgflip.com/3kwur5.jpg"
+  },
+  {
+    "id": "163573",
+    "name": "Imagination Spongebob",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: Spongebob's rainbow hands"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the magical label"
+      }
+    ],
+    "usage": "Something being explained as if it were magic.",
+    "tags": [
+      "imagination",
+      "magic",
+      "rainbow",
+      "sarcasm"
+    ],
+    "example": [
+      "Free shipping",
+      "Imagination"
+    ],
+    "previewUrl": "https://i.imgflip.com/3i7p.jpg"
+  },
+  {
+    "id": "99683372",
+    "name": "Sleeping Shaq",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "sleeping Shaq: what you ignore"
+      },
+      {
+        "index": 2,
+        "role": "awake Shaq: what wakes you up"
+      }
+    ],
+    "usage": "Not caring about one thing, suddenly alert for another.",
+    "tags": [
+      "ignore vs alert",
+      "sleep",
+      "interest",
+      "wake up"
+    ],
+    "example": [
+      "Alarm clock",
+      "Someone opening a bag of chips"
+    ],
+    "previewUrl": "https://i.imgflip.com/1nck6k.jpg"
+  },
+  {
+    "id": "84341851",
+    "name": "Evil Kermit",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "Kermit: the good intention"
+      },
+      {
+        "index": 2,
+        "role": "Evil Kermit: the tempting bad idea"
+      }
+    ],
+    "usage": "Your inner voice tempting you to do the bad thing.",
+    "tags": [
+      "temptation",
+      "inner voice",
+      "bad idea",
+      "dark side"
+    ],
+    "example": [
+      "Me: I should save money",
+      "Me to me: buy it, you deserve it"
+    ],
+    "previewUrl": "https://i.imgflip.com/1e7ql7.jpg"
+  },
+  {
+    "id": "166969924",
+    "name": "Flex Tape",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the big problem (the leak)"
+      },
+      {
+        "index": 2,
+        "role": "the quick fix (the tape)"
+      },
+      {
+        "index": 3,
+        "role": "the 'fixed' result"
+      }
+    ],
+    "usage": "Covering a big problem with a quick fix.",
+    "tags": [
+      "quick fix",
+      "band aid",
+      "cover up",
+      "problem"
+    ],
+    "example": [
+      "A broken budget",
+      "Another credit card",
+      "Fixed"
+    ],
+    "previewUrl": "https://i.imgflip.com/2reqtg.png"
+  },
+  {
+    "id": "224514655",
+    "name": "Anime Girl Hiding from Terminator",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the girl: who is hiding"
+      },
+      {
+        "index": 2,
+        "role": "the Terminator: what is searching for them"
+      }
+    ],
+    "usage": "Hiding from something that is hunting you.",
+    "tags": [
+      "hiding",
+      "avoidance",
+      "hunted",
+      "terminator"
+    ],
+    "example": [
+      "Me",
+      "My dentist appointment reminder"
+    ],
+    "previewUrl": "https://i.imgflip.com/3po4m7.jpg"
+  },
+  {
+    "id": "129315248",
+    "name": "No - Yes",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the rejected version"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the accepted reframe"
+      }
+    ],
+    "usage": "Rejecting something, then accepting it once it's reframed.",
+    "tags": [
+      "reframe",
+      "no vs yes",
+      "preference",
+      "rebrand"
+    ],
+    "example": [
+      "Exercise",
+      "Dancing in the kitchen"
+    ],
+    "previewUrl": "https://i.imgflip.com/24zoa8.jpg"
+  },
+  {
+    "id": "187102311",
+    "name": "Three-headed Dragon",
+    "boxCount": 4,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left head: first personality"
+      },
+      {
+        "index": 2,
+        "role": "middle head: second personality"
+      },
+      {
+        "index": 3,
+        "role": "right head: third / the derpy one"
+      },
+      {
+        "index": 4,
+        "role": "the body: what they all are"
+      }
+    ],
+    "usage": "Three different personalities of the same thing.",
+    "tags": [
+      "three types",
+      "personalities",
+      "group",
+      "dragon"
+    ],
+    "example": [
+      "Serious news",
+      "Opinion pieces",
+      "Comment section",
+      "The internet"
+    ],
+    "previewUrl": "https://i.imgflip.com/33e92f.jpg"
+  },
+  {
+    "id": "133946291",
+    "name": "You know, I'm something of a scientist myself",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the tiny thing you did"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'I'm something of an X myself'"
+      }
+    ],
+    "usage": "Claiming expertise you barely have.",
+    "tags": [
+      "fake expert",
+      "pretend",
+      "claim",
+      "scientist"
+    ],
+    "example": [
+      "Watched one cooking video",
+      "I'm something of a chef myself"
+    ],
+    "previewUrl": "https://i.imgflip.com/27qxmb.jpg"
+  },
+  {
+    "id": "226297822",
+    "name": "Panik Kalm Panik",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "panik: the first scary thing"
+      },
+      {
+        "index": 2,
+        "role": "kalm: the reassuring detail"
+      },
+      {
+        "index": 3,
+        "role": "panik: the new scary detail"
+      }
+    ],
+    "usage": "Panic, relief, panic again.",
+    "tags": [
+      "panic",
+      "relief",
+      "rollercoaster",
+      "emotions"
+    ],
+    "example": [
+      "The exam is tomorrow",
+      "It's open book",
+      "I don't have the book"
+    ],
+    "previewUrl": "https://i.imgflip.com/3qqcim.png"
+  },
+  {
+    "id": "221578498",
+    "name": "Grant Gustin over grave",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the grave: what died"
+      },
+      {
+        "index": 2,
+        "role": "the person over it: who/what replaced it"
+      }
+    ],
+    "usage": "Something gone and forgotten while another thing gets celebrated.",
+    "tags": [
+      "replaced",
+      "obsolete",
+      "grave",
+      "forgotten"
+    ],
+    "example": [
+      "Landline phones",
+      "Smartphones"
+    ],
+    "previewUrl": "https://i.imgflip.com/3nx72a.png"
+  },
+  {
+    "id": "110133729",
+    "name": "spiderman pointing at spiderman",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left Spider-Man"
+      },
+      {
+        "index": 2,
+        "role": "right Spider-Man"
+      }
+    ],
+    "usage": "Two identical things accusing each other.",
+    "tags": [
+      "hypocrisy",
+      "same thing",
+      "accusation",
+      "mirror"
+    ],
+    "example": [
+      "People who complain about traffic",
+      "People who are the traffic"
+    ],
+    "previewUrl": "https://i.imgflip.com/1tkjq9.jpg"
+  },
+  {
+    "id": "162372564",
+    "name": "Domino Effect",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "small domino: the tiny cause"
+      },
+      {
+        "index": 2,
+        "role": "huge domino: the massive effect"
+      }
+    ],
+    "usage": "A tiny cause leading to a huge effect.",
+    "tags": [
+      "chain reaction",
+      "small cause",
+      "big effect",
+      "consequence"
+    ],
+    "example": [
+      "Skipping one alarm",
+      "Missing the flight"
+    ],
+    "previewUrl": "https://i.imgflip.com/2oo7h0.jpg"
+  },
+  {
+    "id": "61556",
+    "name": "Grandma Finds The Internet",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the naive amazement"
+      }
+    ],
+    "usage": "Old person amazed by something basic.",
+    "tags": [
+      "naive",
+      "amazement",
+      "technology",
+      "grandma"
+    ],
+    "example": [
+      "Grandma finds autocorrect",
+      "Thinks the phone is reading her mind"
+    ],
+    "previewUrl": "https://i.imgflip.com/1bhw.jpg"
+  },
+  {
+    "id": "135678846",
+    "name": "Who Killed Hannibal",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first panel: the question"
+      },
+      {
+        "index": 2,
+        "role": "second panel: the obvious answer"
+      },
+      {
+        "index": 3,
+        "role": "third panel: the person shrugging/pointing"
+      }
+    ],
+    "usage": "Asking an obvious question whose answer is right there.",
+    "tags": [
+      "obvious",
+      "mystery",
+      "who did it",
+      "hannibal"
+    ],
+    "example": [
+      "Who ate my lunch?",
+      "My roommate holding my lunch",
+      "We may never know"
+    ],
+    "previewUrl": "https://i.imgflip.com/28s2gu.jpg"
+  },
+  {
+    "id": "309668311",
+    "name": "Two Paths",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "left path"
+      },
+      {
+        "index": 2,
+        "role": "right path"
+      },
+      {
+        "index": 3,
+        "role": "the person choosing"
+      }
+    ],
+    "usage": "Choosing between two paths.",
+    "tags": [
+      "choice",
+      "paths",
+      "decision",
+      "crossroads"
+    ],
+    "example": [
+      "Healthy lunch",
+      "Burger",
+      "Me"
+    ],
+    "previewUrl": "https://i.imgflip.com/54d9lj.png"
+  },
+  {
+    "id": "259237855",
+    "name": "Laughing Leo",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the situation"
+      },
+      {
+        "index": 2,
+        "role": "bottom: who is laughing"
+      }
+    ],
+    "usage": "Laughing at someone's predictable misfortune.",
+    "tags": [
+      "laughing",
+      "mockery",
+      "schadenfreude",
+      "leo"
+    ],
+    "example": [
+      "When your friend says 'one drink' on a Tuesday",
+      "Me"
+    ],
+    "previewUrl": "https://i.imgflip.com/4acd7j.png"
+  },
+  {
+    "id": "92084495",
+    "name": "Charlie Conspiracy (Always Sunny in Philidelphia)",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the theory"
+      },
+      {
+        "index": 2,
+        "role": "bottom: the guy explaining it"
+      }
+    ],
+    "usage": "Connecting unrelated things in a crazy theory.",
+    "tags": [
+      "conspiracy",
+      "crazy theory",
+      "connections",
+      "investigation"
+    ],
+    "example": [
+      "Every time I wash my car it rains",
+      "Charlie explaining the weather conspiracy"
+    ],
+    "previewUrl": "https://i.imgflip.com/1itoun.jpg"
+  },
+  {
+    "id": "342785297",
+    "name": "Gus Fring we are not the same",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first: what they do"
+      },
+      {
+        "index": 2,
+        "role": "second: what I do"
+      },
+      {
+        "index": 3,
+        "role": "third: 'we are not the same'"
+      }
+    ],
+    "usage": "Doing the same thing as someone else but feeling superior about it.",
+    "tags": [
+      "superiority",
+      "we are not the same",
+      "comparison",
+      "gus fring"
+    ],
+    "example": [
+      "You drink coffee to wake up",
+      "I drink coffee because I like it",
+      "We are not the same"
+    ],
+    "previewUrl": "https://i.imgflip.com/5o32tt.png"
+  },
+  {
+    "id": "14371066",
+    "name": "Star Wars Yoda",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: the setup"
+      },
+      {
+        "index": 2,
+        "role": "bottom: Yoda's wisdom"
+      }
+    ],
+    "usage": "Wise advice in reverse word order.",
+    "tags": [
+      "wisdom",
+      "advice",
+      "yoda",
+      "star wars"
+    ],
+    "example": [
+      "Procrastinate, you must not",
+      "Tomorrow, start you will"
+    ],
+    "previewUrl": "https://i.imgflip.com/8k0sa.jpg"
+  },
+  {
+    "id": "123999232",
+    "name": "The Scroll Of Truth",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the scroll: the uncomfortable truth"
+      },
+      {
+        "index": 2,
+        "role": "his reaction: the rejection"
+      }
+    ],
+    "usage": "Reading an uncomfortable truth and throwing it away.",
+    "tags": [
+      "uncomfortable truth",
+      "denial",
+      "reject",
+      "scroll"
+    ],
+    "example": [
+      "You can't buy happiness",
+      "Nope"
+    ],
+    "previewUrl": "https://i.imgflip.com/21tqf4.jpg"
+  },
+  {
+    "id": "104893621",
+    "name": "Grim Reaper Knocking Door",
+    "boxCount": 3,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the grim reaper: the killer"
+      },
+      {
+        "index": 2,
+        "role": "the doors: the victims"
+      },
+      {
+        "index": 3,
+        "role": "the next door: who is next"
+      }
+    ],
+    "usage": "Something eliminates things one by one, and you're next.",
+    "tags": [
+      "eliminating",
+      "one by one",
+      "next",
+      "death"
+    ],
+    "example": [
+      "Inflation",
+      "My savings",
+      "My coffee budget"
+    ],
+    "previewUrl": "https://i.imgflip.com/1qg8fp.jpg"
+  },
+  {
+    "id": "134797956",
+    "name": "American Chopper Argument",
+    "boxCount": 5,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "first line of the argument"
+      },
+      {
+        "index": 2,
+        "role": "reply"
+      },
+      {
+        "index": 3,
+        "role": "angrier reply"
+      },
+      {
+        "index": 4,
+        "role": "even angrier reply"
+      },
+      {
+        "index": 5,
+        "role": "the chair-throwing climax"
+      }
+    ],
+    "usage": "A heated escalating argument.",
+    "tags": [
+      "argument",
+      "fight",
+      "escalation",
+      "debate"
+    ],
+    "example": [
+      "It's a sandwich",
+      "No, a hot dog isn't a sandwich",
+      "It's meat in bread",
+      "Then a taco is a sandwich too",
+      "Get out"
+    ],
+    "previewUrl": "https://i.imgflip.com/2896ro.jpg"
+  },
+  {
+    "id": "29617627",
+    "name": "Look At Me",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Look at me'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'I am the captain now'"
+      }
+    ],
+    "usage": "Taking control of a situation.",
+    "tags": [
+      "control",
+      "takeover",
+      "captain",
+      "authority"
+    ],
+    "example": [
+      "Look at me",
+      "I'm the group project leader now"
+    ],
+    "previewUrl": "https://i.imgflip.com/hmt3v.jpg"
+  },
+  {
+    "id": "101716",
+    "name": "Yo Dawg Heard You",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "top: 'Yo dawg, I heard you like X'"
+      },
+      {
+        "index": 2,
+        "role": "bottom: 'so I put an X in your X'"
+      }
+    ],
+    "usage": "Putting something inside more of itself.",
+    "tags": [
+      "recursion",
+      "meta",
+      "x in x",
+      "yo dawg"
+    ],
+    "example": [
+      "Yo dawg, I heard you like meetings",
+      "so we scheduled a meeting about meetings"
+    ],
+    "previewUrl": "https://i.imgflip.com/26hg.jpg"
+  },
+  {
+    "id": "101956210",
+    "name": "Whisper and Goosebumps",
+    "boxCount": 2,
+    "boxes": [
+      {
+        "index": 1,
+        "role": "the whisperer: what is whispered"
+      },
+      {
+        "index": 2,
+        "role": "the listener: who gets goosebumps"
+      }
+    ],
+    "usage": "Someone whispers something that gives the listener chills.",
+    "tags": [
+      "whisper",
+      "excitement",
+      "chills",
+      "secret"
+    ],
+    "example": [
+      "Free food in the break room",
+      "Every employee"
+    ],
+    "previewUrl": "https://i.imgflip.com/1op9wy.jpg"
   }
 ]

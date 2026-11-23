@@ -13,6 +13,6 @@ export class GenerateMeme {
     const template = await this.catalog.get(req.templateId);
     if (!template) throw new TemplateNotFoundError(req.templateId);
     assertTextsFit(template, req.texts);
-    return this.renderer.render({ templateId: template.id, texts: req.texts }, creds);
+    return this.renderer.render({ ...req, templateId: template.id }, creds);
   }
 }
