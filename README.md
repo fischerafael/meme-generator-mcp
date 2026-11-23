@@ -5,7 +5,7 @@ An open-source MCP server + web app that lets any AI assistant (Claude, ChatGPT,
 - **No accounts, no database.** You turn your Imgflip username and password into an encrypted token (AES-256-GCM). The server decrypts it on each request and forgets it.
 - **MCP connector.** Paste the token as the Bearer token when adding the connector in your MCP client.
 - **Playground.** Generate memes directly in the browser. The URL keeps the template and texts, so links are shareable.
-- **82 role-labeled templates.** Every template says what each text box means (`boxes[].role`), when to use it, tags and an example, so the LLM puts the right text in the right place.
+- **171 role-labeled templates.** Every template says what each text box means (`boxes[].role`), when to use it, tags and an example, so the LLM puts the right text in the right place.
 
 ## Generate a token
 
